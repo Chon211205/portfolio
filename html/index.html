@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Pokédex</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <main class="pokedex-container">
+
+    <section class="pokedex">
+
+      <header class="pokedex-header">
+        <div class="lights">
+          <div class="main-light"></div>
+          <div class="mini-light red"></div>
+          <div class="mini-light yellow"></div>
+          <div class="mini-light green"></div>
+        </div>
+
+        <div class="title-box">
+          <p>PORTAFOLIO DIGITAL</p>
+        </div>
+      </header>
+
+      <section class="pokedex-body">
+
+        <aside class="left-panel">
+          <div class="screen">
+            <div class="screen-header">
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+
+            <div class="trainer-preview">
+              <div class="avatar-circle">
+                <span>⚡</span>
+              </div>
+
+              <h1>Chon</h1>
+              <p>Web Developer</p>
+              <p class="trainer-id">ID No. 241203</p>
+            </div>
+          </div>
+
+          <div class="control-area">
+            <div class="d-pad">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+
+            <div class="action-buttons">
+              <button class="circle-btn blue"></button>
+              <button class="circle-btn green-btn"></button>
+            </div>
+          </div>
+        </aside>
+
+        <section class="right-panel">
+          <div class="menu-screen">
+            <h2>MENÚ POKÉDEX</h2>
+            <p class="subtitle">Selecciona una sección</p>
+
+            <nav class="menu-options menu-icons">
+
+              <a href="/html/trainercard.html" class="menu-card selected">
+                <div class="icon-circle orange">
+                  <i data-lucide="id-card"></i>
+                </div>
+
+                <div>
+                  <h3>Trainer Card</h3>
+                  <p>Información personal y perfil profesional.</p>
+                </div>
+              </a>
+
+              <a href="proyectos.html" class="menu-card">
+                <div class="icon-circle blue-icon">
+                  <i data-lucide="folder-code"></i>
+                </div>
+
+                <div>
+                  <h3>Proyectos</h3>
+                  <p>Trabajos realizados y experiencias de desarrollo.</p>
+                </div>
+              </a>
+
+              <a href="habilidades.html" class="menu-card">
+                <div class="icon-circle green-icon">
+                  <i data-lucide="code-2"></i>
+                </div>
+
+                <div>
+                  <h3>Habilidades</h3>
+                  <p>Tecnologías, herramientas y conocimientos.</p>
+                </div>
+              </a>
+
+              <a href="contacto.html" class="menu-card">
+                <div class="icon-circle purple">
+                  <i data-lucide="mail"></i>
+                </div>
+
+                <div>
+                  <h3>Contacto</h3>
+                  <p>Redes, correo y formas de comunicación.</p>
+                </div>
+              </a>
+
+              <a href="sobre-mi.html" class="menu-card">
+                <div class="icon-circle red-icon">
+                  <i data-lucide="user-round"></i>
+                </div>
+
+                <div>
+                  <h3>Sobre mí</h3>
+                  <p>Mi historia, intereses y objetivos profesionales.</p>
+                </div>
+              </a>
+
+              <a href="opciones.html" class="menu-card">
+                <div class="icon-circle violet">
+                  <i data-lucide="settings"></i>
+                </div>
+
+                <div>
+                  <h3>Opciones</h3>
+                  <p>Preferencias, tema visual y detalles extra.</p>
+                </div>
+              </a>
+
+            </nav>
+          </div>
+
+          <div class="bottom-buttons">
+            <button>START</button>
+            <button>SELECT</button>
+          </div>
+        </section>
+
+      </section>
+
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons()
+  </script>
+
+</body>
+</html>

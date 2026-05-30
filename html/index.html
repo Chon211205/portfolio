@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio Pokédex</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
@@ -21,7 +21,18 @@
         </div>
 
         <div class="title-box">
-          <p>PORTAFOLIO DIGITAL</p>
+          <p data-i18n="site.portfolioTitle">PORTAFOLIO DIGITAL</p>
+        </div>
+
+        <div class="language-box">
+          <label for="language-select" class="sr-only">Seleccionar idioma</label>
+
+          <select id="language-select" class="language-select">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="zh">中文</option>
+          </select>
         </div>
       </header>
 
@@ -39,8 +50,8 @@
                 <span>⚡</span>
               </div>
 
-              <h1>Chon</h1>
-              <p>Web Developer</p>
+              <h1 data-i18n="site.ownerName">Chon</h1>
+              <p data-i18n="site.role">Web Developer</p>
               <p class="trainer-id">ID No. 241203</p>
             </div>
           </div>
@@ -63,19 +74,19 @@
 
         <section class="right-panel">
           <div class="menu-screen">
-            <h2>MENÚ POKÉDEX</h2>
-            <p class="subtitle">Selecciona una sección</p>
+            <h2 data-i18n="menu.title">MENÚ PRINCIPAL</h2>
+            <p class="subtitle" data-i18n="menu.subtitle">Selecciona una sección</p>
 
             <nav class="menu-options menu-icons">
 
-              <a href="/html/trainercard.html" class="menu-card selected">
+              <a href="trainercard.html" class="menu-card selected">
                 <div class="icon-circle orange">
                   <i data-lucide="id-card"></i>
                 </div>
 
                 <div>
-                  <h3>Trainer Card</h3>
-                  <p>Información personal y perfil profesional.</p>
+                  <h3 data-i18n="menu.trainerCard">Trainer Card</h3>
+                  <p data-i18n="menu.trainerCardDesc">Información personal y perfil profesional.</p>
                 </div>
               </a>
 
@@ -85,8 +96,8 @@
                 </div>
 
                 <div>
-                  <h3>Proyectos</h3>
-                  <p>Trabajos realizados y experiencias de desarrollo.</p>
+                  <h3 data-i18n="menu.projects">Proyectos</h3>
+                  <p data-i18n="menu.projectsDesc">Trabajos realizados y experiencias de desarrollo.</p>
                 </div>
               </a>
 
@@ -96,8 +107,8 @@
                 </div>
 
                 <div>
-                  <h3>Habilidades</h3>
-                  <p>Tecnologías, herramientas y conocimientos.</p>
+                  <h3 data-i18n="menu.skills">Habilidades</h3>
+                  <p data-i18n="menu.skillsDesc">Tecnologías, herramientas y conocimientos.</p>
                 </div>
               </a>
 
@@ -107,8 +118,8 @@
                 </div>
 
                 <div>
-                  <h3>Contacto</h3>
-                  <p>Redes, correo y formas de comunicación.</p>
+                  <h3 data-i18n="menu.contact">Contacto</h3>
+                  <p data-i18n="menu.contactDesc">Redes, correo y formas de comunicación.</p>
                 </div>
               </a>
 
@@ -118,8 +129,8 @@
                 </div>
 
                 <div>
-                  <h3>Sobre mí</h3>
-                  <p>Mi historia, intereses y objetivos profesionales.</p>
+                  <h3 data-i18n="menu.aboutMe">Sobre mí</h3>
+                  <p data-i18n="menu.aboutMeDesc">Mi historia, intereses y objetivos profesionales.</p>
                 </div>
               </a>
 
@@ -129,8 +140,8 @@
                 </div>
 
                 <div>
-                  <h3>Opciones</h3>
-                  <p>Preferencias, tema visual y detalles extra.</p>
+                  <h3 data-i18n="menu.options">Opciones</h3>
+                  <p data-i18n="menu.optionsDesc">Preferencias, tema visual y detalles extra.</p>
                 </div>
               </a>
 
@@ -153,6 +164,9 @@
   <script>
     lucide.createIcons()
   </script>
+
+  <script src="../js/translations.js"></script>
+  <script src="../js/language.js"></script>
 
 </body>
 </html>

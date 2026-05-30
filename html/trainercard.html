@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trainer Card | Chon</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
@@ -15,11 +15,22 @@
       <header class="trainer-header">
         <a href="index.html" class="back-button">
           <i data-lucide="arrow-left"></i>
-          Volver
+          <span data-i18n="site.back">Volver</span>
         </a>
 
         <div class="title-box">
-          <p>TRAINER CARD</p>
+          <p data-i18n="trainer.title">TRAINER CARD</p>
+        </div>
+
+        <div class="language-box">
+          <label for="language-select" class="sr-only">Seleccionar idioma</label>
+
+          <select id="language-select" class="language-select">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="zh">中文</option>
+          </select>
         </div>
       </header>
 
@@ -28,72 +39,79 @@
         <div class="trainer-card-left">
           <div class="trainer-photo">
             <div class="trainer-avatar">
-                <img src="/images/Foto.jpeg" alt="foto de perfil">
+              <img src="../images/Foto.jpeg" alt="foto de perfil">
             </div>
-
           </div>
 
-          <h1>Chon</h1>
-          <p class="trainer-role">Web Developer</p>
+          <h1 data-i18n="site.ownerName">Chon</h1>
+          <p class="trainer-role" data-i18n="site.role">Web Developer</p>
 
           <div class="trainer-basic-info">
             <p><strong>ID:</strong> 241203</p>
-            <p><strong>Región:</strong> Guatemala</p>
-            <p><strong>Tipo:</strong> Frontend / Web</p>
+
+            <p>
+              <strong data-i18n="site.region">Región:</strong>
+              <span data-i18n="site.guatemala">Guatemala</span>
+            </p>
+
+            <p>
+              <strong data-i18n="site.type">Tipo:</strong>
+              <span data-i18n="site.frontendWeb">Frontend / Web</span>
+            </p>
           </div>
         </div>
 
         <div class="trainer-card-right">
 
           <div class="card-section">
-            <h2>Perfil</h2>
-            <p>
+            <h2 data-i18n="trainer.profileTitle">Perfil</h2>
+            <p data-i18n="trainer.profileText">
               Soy un desarrollador web en formación, enfocado en crear interfaces
               claras, funcionales y visualmente atractivas. Este portafolio está
               inspirado en una Pokédex para presentar mi información de forma
               interactiva, organizada y con una identidad visual diferente.
-              Ya que pokemon es de mis videojuegos favoritos y que me marco la vida.
+              Ya que Pokémon es de mis videojuegos favoritos y me marcó la vida.
             </p>
           </div>
 
           <div class="card-section">
-            <h2>Objetivo</h2>
-            <p>
+            <h2 data-i18n="trainer.goalTitle">Objetivo</h2>
+            <p data-i18n="trainer.goalText">
               Crear proyectos web que combinen buena estructura, código limpio,
               diseño responsivo y una experiencia de usuario clara.
             </p>
           </div>
 
           <div class="card-section">
-            <h2>Equipo Pokemon</h2>
+            <h2 data-i18n="trainer.teamTitle">Equipo Pokémon</h2>
 
             <div class="pokemon-slots">
-                <div class="pokemon-slot">
-                <img src="/images/tepig.png" alt="Pokemon 1">
-                </div>
+              <div class="pokemon-slot">
+                <img src="../images/tepig.png" alt="Tepig">
+              </div>
 
-                <div class="pokemon-slot">
-                <img src="/images/mimikyu.png" alt="Pokemon 2">
-                </div>
+              <div class="pokemon-slot">
+                <img src="../images/mimikyu.png" alt="Mimikyu">
+              </div>
 
-                <div class="pokemon-slot">
-                <img src="/images/excadrill.png" alt="Pokemon 3">
-                </div>
+              <div class="pokemon-slot">
+                <img src="../images/excadrill.png" alt="Excadrill">
+              </div>
 
-                <div class="pokemon-slot">
-                <img src="/images/piplup.png" alt="Pokemon 4">
-                </div>
+              <div class="pokemon-slot">
+                <img src="../images/piplup.png" alt="Piplup">
+              </div>
 
-                <div class="pokemon-slot">
-                <img src="/images/lucario.png" alt="Pokemon 5">
-                </div>
+              <div class="pokemon-slot">
+                <img src="../images/lucario.png" alt="Lucario">
+              </div>
 
-                <div class="pokemon-slot">
-                <img src="/images/mudkip.png" alt="Pokemon 6">
-                </div>
+              <div class="pokemon-slot">
+                <img src="../images/mudkip.png" alt="Mudkip">
+              </div>
             </div>
-            </div    
           </div>
+
         </div>
 
       </section>
@@ -106,6 +124,9 @@
   <script>
     lucide.createIcons()
   </script>
+
+  <script src="../js/translations.js"></script>
+  <script src="../js/language.js"></script>
 
 </body>
 </html>

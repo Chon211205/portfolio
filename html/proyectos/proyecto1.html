@@ -11,49 +11,62 @@
   <article class="project-detail-card iframe-project active">
 
     <div class="project-detail-screen">
-      <i data-lucide="calculator"></i>
+      <img src="../../images/calculator.png" alt="calculator image">
     </div>
 
     <div class="project-detail-top">
       <span class="project-number">No. 001</span>
-      <span class="project-type electric-type">Tipo Página web</span>
+
+      <span class="project-type electric-type" data-i18n="projectOne.type">
+        Tipo Página web
+      </span>
     </div>
 
-    <h2>Calculadora Web</h2>
+    <h2 data-i18n="projectOne.title">Calculadora Web</h2>
 
-    <p>
-      Calculadora desarrollada con HTML, CSS y JavaScript, enfocada en manejar
-      operaciones básicas, eventos de botones y actualización dinámica de la pantalla.
+    <p data-i18n="projectOne.description">
+      Calculadora enfocada en operaciones básicas con test y Storybook funcionales.
     </p>
 
     <div class="project-info-box">
-      <h3>Tecnologías</h3>
+      <h3 data-i18n="projectOne.technologiesTitle">Tecnologías</h3>
 
       <div class="tech-tags">
-        <span>HTML</span>
+        <span>TypeScript</span>
         <span>CSS</span>
         <span>JavaScript</span>
+        <span>HTML</span>
       </div>
     </div>
 
     <div class="project-info-box">
-      <h3>Qué demuestra</h3>
-      <p>
-        Manejo del DOM, eventos, lógica de operaciones y construcción de una interfaz funcional.
+      <h3 data-i18n="projectOne.demonstratesTitle">Qué demuestra</h3>
+
+      <p data-i18n="projectOne.demonstratesText">
+        El objetivo de este proyecto es practicar los conceptos alrededor del diseño
+        de aplicaciones en base a componentes. También aplicar testing, linting y Storybook.
       </p>
     </div>
 
     <div class="project-info-box">
-      <h3>Reflexión</h3>
-      <p>
-        Este proyecto me ayudó a practicar cómo dividir un problema en partes pequeñas:
-        entrada de datos, operaciones, validaciones y actualización visual.
+      <h3 data-i18n="projectOne.reflectionTitle">Reflexión</h3>
+
+      <p data-i18n="projectOne.reflectionText">
+        Este proyecto me ayudó a ver cómo funcionan el testing, linting y Storybook.
+        En mi opinión son útiles para proyectos grandes para comprobar si algo falla
+        y evitar acumular errores.
       </p>
     </div>
 
     <div class="project-actions">
-      <a href="#" target="_blank" rel="noopener noreferrer">Ver demo</a>
-      <a href="#" target="_blank" rel="noopener noreferrer">Ver código</a>
+      <a
+        href="https://github.com/Chon211205/Calculator.git"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="projectOne.repositoryButton"
+      >
+        Repositorio
+      </a>
     </div>
 
   </article>
@@ -62,6 +75,9 @@
   <script>
     lucide.createIcons()
   </script>
+
+  <script src="../../js/translations.js"></script>
+  <script src="../../js/language.js"></script>
 
 </body>
 </html>

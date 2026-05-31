@@ -37,6 +37,21 @@ const translations = {
       goalText:
         'Crear proyectos web que combinen buena estructura, código limpio, diseño responsivo y una experiencia de usuario clara.',
       teamTitle: 'Equipo Pokémon'
+    },
+
+    projectOne: {
+      type: 'Tipo Página web',
+      title: 'Calculadora Web',
+      description:
+        'Calculadora enfocada en operaciones básicas con test y Storybook funcionales.',
+      technologiesTitle: 'Tecnologías',
+      demonstratesTitle: 'Qué demuestra',
+      demonstratesText:
+        'El objetivo de este proyecto es practicar los conceptos alrededor del diseño de aplicaciones en base a componentes. También aplicar testing, linting y Storybook.',
+      reflectionTitle: 'Reflexión',
+      reflectionText:
+        'Este proyecto me ayudó a ver cómo funcionan el testing, linting y Storybook. En mi opinión son útiles para proyectos grandes para comprobar si algo falla y evitar acumular errores.',
+      repositoryButton: 'Repositorio'
     }
   },
 
@@ -78,6 +93,21 @@ const translations = {
       goalText:
         'To create web projects that combine good structure, clean code, responsive design and a clear user experience.',
       teamTitle: 'Pokémon Team'
+    },
+
+    projectOne: {
+      type: 'Website Type',
+      title: 'Web Calculator',
+      description:
+        'Calculator focused on basic operations with functional tests and Storybook stories.',
+      technologiesTitle: 'Technologies',
+      demonstratesTitle: 'What it demonstrates',
+      demonstratesText:
+        'The goal of this project is to practice concepts related to component-based application design. It also applies testing, linting and Storybook.',
+      reflectionTitle: 'Reflection',
+      reflectionText:
+        'This project helped me understand how testing, linting and Storybook work. In my opinion, they are useful for large projects because they help detect failures and avoid accumulating errors.',
+      repositoryButton: 'Repository'
     }
   },
 
@@ -119,6 +149,21 @@ const translations = {
       goalText:
         'Webprojekte erstellen, die gute Struktur, sauberen Code, responsives Design und eine klare Benutzererfahrung kombinieren.',
       teamTitle: 'Pokémon-Team'
+    },
+
+    projectOne: {
+      type: 'Webseiten-Typ',
+      title: 'Web-Rechner',
+      description:
+        'Rechner mit Fokus auf Grundoperationen, funktionalen Tests und Storybook-Stories.',
+      technologiesTitle: 'Technologien',
+      demonstratesTitle: 'Was es zeigt',
+      demonstratesText:
+        'Das Ziel dieses Projekts ist es, Konzepte rund um komponentenbasiertes Anwendungsdesign zu üben. Außerdem werden Testing, Linting und Storybook angewendet.',
+      reflectionTitle: 'Reflexion',
+      reflectionText:
+        'Dieses Projekt hat mir geholfen zu verstehen, wie Testing, Linting und Storybook funktionieren. Meiner Meinung nach sind sie für große Projekte nützlich, weil sie helfen, Fehler zu erkennen und zu vermeiden, dass sich Probleme ansammeln.',
+      repositoryButton: 'Repository'
     }
   },
 
@@ -160,6 +205,21 @@ const translations = {
       goalText:
         '创建结合良好结构、整洁代码、响应式设计和清晰用户体验的网页项目。',
       teamTitle: '宝可梦队伍'
+    },
+
+    projectOne: {
+      type: '网页类型',
+      title: '网页计算器',
+      description:
+        '一个专注于基本运算的计算器项目，并包含可用的测试和 Storybook。',
+      technologiesTitle: '技术',
+      demonstratesTitle: '展示内容',
+      demonstratesText:
+        '这个项目的目标是练习基于组件的应用程序设计概念，同时应用测试、代码规范检查和 Storybook。',
+      reflectionTitle: '反思',
+      reflectionText:
+        '这个项目帮助我理解测试、代码规范检查和 Storybook 的工作方式。在我看来，它们对大型项目很有用，因为可以检查错误并避免问题不断累积。',
+      repositoryButton: '代码仓库'
     }
   }
 }

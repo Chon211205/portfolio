@@ -457,6 +457,17 @@ body {
   color: #1f1f1f;
 }
 
+.project-detail-screen {
+  overflow: hidden;
+}
+
+.project-detail-screen img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #ffffff;
+}
+
 /*Trainer card*/
 
 .trainer-card-page {

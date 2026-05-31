@@ -28,13 +28,20 @@ function changeLanguage(language) {
   document.documentElement.lang = language
 }
 
+const savedLanguage = localStorage.getItem('language') || 'es'
+
 if (languageSelect) {
+  languageSelect.value = savedLanguage
+
   languageSelect.addEventListener('change', function(event) {
     changeLanguage(event.target.value)
+
+    const projectFrame = document.querySelector('.project-frame')
+
+    if (projectFrame && projectFrame.contentWindow) {
+      projectFrame.contentWindow.location.reload()
+    }
   })
-
-  const savedLanguage = localStorage.getItem('language') || 'es'
-
-  languageSelect.value = savedLanguage
-  changeLanguage(savedLanguage)
 }
+
+changeLanguage(savedLanguage)

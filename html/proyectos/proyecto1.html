@@ -3,107 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto 001 | Chon</title>
-  <link rel="stylesheet" href="../css/styles.css">
+  <title>Proyecto 001</title>
+  <link rel="stylesheet" href="../../css/styles.css">
 </head>
-<body>
+<body class="project-iframe-body">
 
-  <main class="pokedex-container">
+  <article class="project-detail-card iframe-project active">
 
-    <section class="project-detail-page">
+    <div class="project-detail-screen">
+      <i data-lucide="calculator"></i>
+    </div>
 
-      <header class="trainer-header">
-        <a href="proyectos.html" class="back-button">
-          <i data-lucide="arrow-left"></i>
-          <span data-i18n="site.back">Volver</span>
-        </a>
+    <div class="project-detail-top">
+      <span class="project-number">No. 001</span>
+      <span class="project-type electric-type">Tipo Página web</span>
+    </div>
 
-        <div class="title-box">
-          <p>PROYECTO 001</p>
-        </div>
+    <h2>Calculadora Web</h2>
 
-        <div class="language-box">
-          <label for="language-select" class="sr-only">Seleccionar idioma</label>
+    <p>
+      Calculadora desarrollada con HTML, CSS y JavaScript, enfocada en manejar
+      operaciones básicas, eventos de botones y actualización dinámica de la pantalla.
+    </p>
 
-          <select id="language-select" class="language-select">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-            <option value="de">Deutsch</option>
-            <option value="zh">中文</option>
-          </select>
-        </div>
-      </header>
+    <div class="project-info-box">
+      <h3>Tecnologías</h3>
 
-      <section class="project-detail-layout">
+      <div class="tech-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
 
-        <aside class="project-detail-left">
-          <div class="project-big-screen">
-            <i data-lucide="calculator"></i>
-          </div>
+    <div class="project-info-box">
+      <h3>Qué demuestra</h3>
+      <p>
+        Manejo del DOM, eventos, lógica de operaciones y construcción de una interfaz funcional.
+      </p>
+    </div>
 
-          <div class="project-mini-info">
-            <p><strong>No.</strong> 001</p>
-            <p><strong data-i18n="projects.typeLabel">Tipo:</strong> <span data-i18n="projects.typeElectric">Tipo Eléctrico</span></p>
-            <p><strong data-i18n="projects.statusLabel">Estado:</strong> <span data-i18n="projects.finished">Terminado</span></p>
-          </div>
-        </aside>
+    <div class="project-info-box">
+      <h3>Reflexión</h3>
+      <p>
+        Este proyecto me ayudó a practicar cómo dividir un problema en partes pequeñas:
+        entrada de datos, operaciones, validaciones y actualización visual.
+      </p>
+    </div>
 
-        <section class="project-detail-right">
+    <div class="project-actions">
+      <a href="#" target="_blank" rel="noopener noreferrer">Ver demo</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">Ver código</a>
+    </div>
 
-          <div class="project-title-card">
-            <span class="project-type electric-type" data-i18n="projects.typeElectric">Tipo Eléctrico</span>
-            <h1 data-i18n="projects.calculatorTitle">Calculadora Web</h1>
-            <p data-i18n="projects.calculatorDesc">
-              Calculadora desarrollada con HTML, CSS y JavaScript, enfocada en manejar operaciones básicas,
-              eventos de botones y actualización dinámica de la pantalla.
-            </p>
-          </div>
-
-          <div class="project-info-box">
-            <h2 data-i18n="projects.techTitle">Tecnologías</h2>
-
-            <div class="tech-tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-            </div>
-          </div>
-
-          <div class="project-info-box">
-            <h2 data-i18n="projects.learnedTitle">Qué demuestra</h2>
-            <p data-i18n="projects.calculatorLearned">
-              Manejo del DOM, eventos, lógica de operaciones y construcción de una interfaz funcional.
-            </p>
-          </div>
-
-          <div class="project-info-box">
-            <h2 data-i18n="projects.reflectionTitle">Reflexión</h2>
-            <p data-i18n="projects.calculatorReflection">
-              Este proyecto me ayudó a practicar cómo dividir un problema en partes pequeñas:
-              entrada de datos, operaciones, validaciones y actualización visual.
-            </p>
-          </div>
-
-          <div class="project-actions">
-            <a href="#" target="_blank" rel="noopener noreferrer" data-i18n="projects.demoButton">Ver demo</a>
-            <a href="#" target="_blank" rel="noopener noreferrer" data-i18n="projects.codeButton">Ver código</a>
-          </div>
-
-        </section>
-
-      </section>
-
-    </section>
-
-  </main>
+  </article>
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     lucide.createIcons()
   </script>
-
-  <script src="../js/translations.js"></script>
-  <script src="../js/language.js"></script>
 
 </body>
 </html>

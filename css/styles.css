@@ -925,3 +925,58 @@ body {
     height: 85px;
   }
 }
+
+.project-dex-card {
+  text-decoration: none;
+}
+
+.project-frame {
+  width: 100%;
+  height: 680px;
+  border: none;
+  border-radius: 22px;
+  background: #ffffff;
+}
+
+.project-iframe-body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.project-iframe-body .iframe-project {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.project-iframe-body .project-detail-screen {
+  height: 220px;
+}
+
+.project-iframe-body .project-info-box {
+  border-width: 4px;
+}
+
+.project-iframe-body .project-info-box h3 {
+  color: #c1121f;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.project-frame {
+  width: 100%;
+  height: 720px;
+  border: none;
+  border-radius: 22px;
+  background: #ffffff;
+  overflow: auto;
+}

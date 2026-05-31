@@ -1,5 +1,5 @@
-const projectButtons = document.querySelectorAll('.project-list-item')
-const projectDetails = document.querySelectorAll('.project-detail')
+const projectButtons = document.querySelectorAll('.project-dex-card')
+const projectDetails = document.querySelectorAll('.project-detail-card')
 
 projectButtons.forEach(function(button) {
   button.addEventListener('click', function() {

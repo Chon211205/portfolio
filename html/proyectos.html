@@ -34,199 +34,140 @@
         </div>
       </header>
 
-      <section class="projects-pokedex-layout">
+    <section class="projects-dex-layout">
 
-        <aside class="projects-list-panel">
-          <div class="projects-list-screen">
-            <h2 data-i18n="projects.pokedexTitle">Pokédex de proyectos</h2>
-            <p data-i18n="projects.pokedexSubtitle">Selecciona una entrada</p>
+  <aside class="projects-dex-list">
+    <div class="projects-intro-mini">
+      <span class="projects-badge" data-i18n="projects.badge">POKÉDEX DE PROYECTOS</span>
+      <h1 data-i18n="projects.heading">Mis proyectos</h1>
+      <p data-i18n="projects.intro">
+        Selecciona un proyecto para ver su información.
+      </p>
+    </div>
 
-            <button class="project-list-item active" data-project="calculator">
-              <span>No. 001</span>
-              <strong data-i18n="projects.calculatorTitle">Calculadora Web</strong>
-            </button>
+    <button class="project-dex-card active" data-project="project1">
+      <div class="project-dex-number">No. 001</div>
 
-            <button class="project-list-item" data-project="landing">
-              <span>No. 002</span>
-              <strong data-i18n="projects.landingTitle">Landing Page</strong>
-            </button>
+      <div class="project-dex-icon">
+        <i data-lucide="calculator"></i>
+      </div>
 
-            <button class="project-list-item" data-project="management">
-              <span>No. 003</span>
-              <strong data-i18n="projects.managementTitle">Sistema de Gestión</strong>
-            </button>
+      <div class="project-dex-info">
+        <span class="project-type electric-type">Tipo Eléctrico</span>
+        <h2>Calculadora Web</h2>
+        <p>Lógica, eventos del DOM y operaciones básicas.</p>
+      </div>
+    </button>
 
-            <button class="project-list-item" data-project="portfolio">
-              <span>No. 004</span>
-              <strong data-i18n="projects.portfolioTitle">Portafolio Pokédex</strong>
-            </button>
-          </div>
-        </aside>
+    <button class="project-dex-card" data-project="project2">
+      <div class="project-dex-number">No. 002</div>
 
-        <section class="project-detail-panel">
+      <div class="project-dex-icon">
+        <i data-lucide="layout-template"></i>
+      </div>
 
-          <article class="project-detail active" id="calculator">
-            <div class="project-detail-top">
-              <span class="project-number">No. 001</span>
-              <span class="project-type electric-type" data-i18n="projects.typeElectric">Tipo Eléctrico</span>
-            </div>
+      <div class="project-dex-info">
+        <span class="project-type grass-type">Tipo Planta</span>
+        <h2>Landing Page</h2>
+        <p>Diseño responsivo y presentación visual.</p>
+      </div>
+    </button>
 
-            <div class="project-display">
-              <i data-lucide="calculator"></i>
-            </div>
+    <button class="project-dex-card" data-project="project3">
+      <div class="project-dex-number">No. 003</div>
 
-            <h1 data-i18n="projects.calculatorTitle">Calculadora Web</h1>
+      <div class="project-dex-icon">
+        <i data-lucide="database"></i>
+      </div>
 
-            <p data-i18n="projects.calculatorDesc">
-              Calculadora desarrollada con HTML, CSS y JavaScript, enfocada en manejar operaciones básicas,
-              eventos de botones y actualización dinámica de la pantalla.
-            </p>
+      <div class="project-dex-info">
+        <span class="project-type steel-type">Tipo Acero</span>
+        <h2>Sistema de Gestión</h2>
+        <p>Organización de datos e interfaz administrativa.</p>
+      </div>
+    </button>
+  </aside>
 
-            <div class="project-info-box">
-              <h2 data-i18n="projects.techTitle">Tecnologías</h2>
+  <section class="projects-dex-detail">
 
-              <div class="tech-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-            </div>
+    <article class="project-detail-card active" id="project1">
+      <div class="project-detail-screen">
+        <i data-lucide="calculator"></i>
+      </div>
 
-            <div class="project-info-box">
-              <h2 data-i18n="projects.learnedTitle">Qué demuestra</h2>
-              <p data-i18n="projects.calculatorLearned">
-                Manejo del DOM, eventos, lógica de operaciones y construcción de una interfaz funcional.
-              </p>
-            </div>
+      <span class="project-type electric-type">Tipo Eléctrico</span>
+      <h2>Calculadora Web</h2>
 
-            <div class="project-actions">
-              <a href="#" data-i18n="projects.demoButton">Ver demo</a>
-              <a href="#" data-i18n="projects.codeButton">Ver código</a>
-            </div>
-          </article>
+      <p>
+        Calculadora desarrollada con HTML, CSS y JavaScript. El proyecto demuestra
+        manejo del DOM, eventos, lógica de operaciones y actualización dinámica
+        de la interfaz.
+      </p>
 
-          <article class="project-detail" id="landing">
-            <div class="project-detail-top">
-              <span class="project-number">No. 002</span>
-              <span class="project-type grass-type" data-i18n="projects.typeGrass">Tipo Planta</span>
-            </div>
+      <div class="tech-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
 
-            <div class="project-display">
-              <i data-lucide="layout-template"></i>
-            </div>
+      <div class="project-actions">
+        <a href="#">Ver demo</a>
+        <a href="#">Ver código</a>
+      </div>
+    </article>
 
-            <h1 data-i18n="projects.landingTitle">Landing Page</h1>
+    <article class="project-detail-card" id="project2">
+      <div class="project-detail-screen">
+        <i data-lucide="layout-template"></i>
+      </div>
 
-            <p data-i18n="projects.landingDesc">
-              Página diseñada para presentar un negocio o idea de forma clara, visual y responsiva,
-              usando una estructura ordenada y llamados a la acción.
-            </p>
+      <span class="project-type grass-type">Tipo Planta</span>
+      <h2>Landing Page</h2>
 
-            <div class="project-info-box">
-              <h2 data-i18n="projects.techTitle">Tecnologías</h2>
+      <p>
+        Página diseñada para presentar un negocio o idea de forma clara, visual
+        y responsiva, usando estructura semántica y llamados a la acción.
+      </p>
 
-              <div class="tech-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-              </div>
-            </div>
+      <div class="tech-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+      </div>
 
-            <div class="project-info-box">
-              <h2 data-i18n="projects.learnedTitle">Qué demuestra</h2>
-              <p data-i18n="projects.landingLearned">
-                Diseño responsivo, jerarquía visual, estructura semántica y presentación clara de contenido.
-              </p>
-            </div>
+      <div class="project-actions">
+        <a href="#">Ver demo</a>
+        <a href="#">Ver código</a>
+      </div>
+    </article>
 
-            <div class="project-actions">
-              <a href="#" data-i18n="projects.demoButton">Ver demo</a>
-              <a href="#" data-i18n="projects.codeButton">Ver código</a>
-            </div>
-          </article>
+    <article class="project-detail-card" id="project3">
+      <div class="project-detail-screen">
+        <i data-lucide="database"></i>
+      </div>
 
-          <article class="project-detail" id="management">
-            <div class="project-detail-top">
-              <span class="project-number">No. 003</span>
-              <span class="project-type steel-type" data-i18n="projects.typeSteel">Tipo Acero</span>
-            </div>
+      <span class="project-type steel-type">Tipo Acero</span>
+      <h2>Sistema de Gestión</h2>
 
-            <div class="project-display">
-              <i data-lucide="database"></i>
-            </div>
+      <p>
+        Interfaz pensada para organizar información de usuarios, datos y acciones
+        administrativas de forma clara y fácil de usar.
+      </p>
 
-            <h1 data-i18n="projects.managementTitle">Sistema de Gestión</h1>
+      <div class="tech-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
 
-            <p data-i18n="projects.managementDesc">
-              Interfaz pensada para organizar información de usuarios, datos y acciones administrativas
-              de forma clara y fácil de usar.
-            </p>
+      <div class="project-actions">
+        <a href="#">Ver demo</a>
+        <a href="#">Ver código</a>
+      </div>
+    </article>
 
-            <div class="project-info-box">
-              <h2 data-i18n="projects.techTitle">Tecnologías</h2>
+  </section>
 
-              <div class="tech-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-            </div>
-
-            <div class="project-info-box">
-              <h2 data-i18n="projects.learnedTitle">Qué demuestra</h2>
-              <p data-i18n="projects.managementLearned">
-                Organización de información, diseño de paneles administrativos y estructura visual para sistemas.
-              </p>
-            </div>
-
-            <div class="project-actions">
-              <a href="#" data-i18n="projects.demoButton">Ver demo</a>
-              <a href="#" data-i18n="projects.codeButton">Ver código</a>
-            </div>
-          </article>
-
-          <article class="project-detail" id="portfolio">
-            <div class="project-detail-top">
-              <span class="project-number">No. 004</span>
-              <span class="project-type psychic-type" data-i18n="projects.typePsychic">Tipo Psíquico</span>
-            </div>
-
-            <div class="project-display">
-              <i data-lucide="sparkles"></i>
-            </div>
-
-            <h1 data-i18n="projects.portfolioTitle">Portafolio Pokédex</h1>
-
-            <p data-i18n="projects.portfolioDesc">
-              Portafolio web inspirado en una interfaz tipo Pokédex, con navegación entre secciones,
-              diseño responsivo y sistema de traducción manual.
-            </p>
-
-            <div class="project-info-box">
-              <h2 data-i18n="projects.techTitle">Tecnologías</h2>
-
-              <div class="tech-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-            </div>
-
-            <div class="project-info-box">
-              <h2 data-i18n="projects.learnedTitle">Qué demuestra</h2>
-              <p data-i18n="projects.portfolioLearned">
-                Coherencia visual, navegación entre páginas, diseño temático y traducción manual con JavaScript.
-              </p>
-            </div>
-
-            <div class="project-actions">
-              <a href="#" data-i18n="projects.demoButton">Ver demo</a>
-              <a href="#" data-i18n="projects.codeButton">Ver código</a>
-            </div>
-          </article>
-
-        </section>
-
-      </section>
+</section>
 
     </section>
 
@@ -237,9 +178,9 @@
     lucide.createIcons()
   </script>
 
+  <script src="../js/projects.js"></script>
   <script src="../js/translations.js"></script>
   <script src="../js/language.js"></script>
-  <script src="../js/projects.js"></script>
 
 </body>
 </html>

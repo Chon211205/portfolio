@@ -113,6 +113,25 @@ const translations = {
       reflectionText:
         'Este proyecto fue interesante al experimentar cómo se trabaja con hilos, observando un mejor comportamiento en el juego en comparación con un código normal.',
       repositoryButton: 'Repositorio'
+    },
+
+    projectsPage: {
+      title: 'PROYECTOS',
+      projectOneType: 'Tipo Página web',
+      projectOneTitle: 'Calculadora Web',
+      projectOneShort: 'Lógica, operaciones básicas, testing, linting y Storybook.',
+      projectTwoType: 'Tipo Página web',
+      projectTwoTitle: 'Rating de películas',
+      projectTwoShort: 'Diseño responsivo y presentación visual.',
+      projectThreeType: 'Tipo Base de datos',
+      projectThreeTitle: 'Sistema de Gestión',
+      projectThreeShort: 'Organización de datos e interfaz administrativa.',
+      projectFourType: 'Tipo Juego',
+      projectFourTitle: 'Snake',
+      projectFourShort: 'Recreación del juego clásico Snake.',
+      projectFiveType: 'Tipo Juego',
+      projectFiveTitle: 'Galaga',
+      projectFiveShort: 'Galaga trabajado en C++ con hilos.'
     }
   },
 
@@ -230,8 +249,26 @@ const translations = {
       reflectionText:
         'This project was interesting because I experimented with how threads work and observed better behavior in the game compared to normal sequential code.',
       repositoryButton: 'Repository'
-    }
+    },
 
+    projectsPage: {
+      title: 'PROJECTS',
+      projectOneType: 'Website Type',
+      projectOneTitle: 'Web Calculator',
+      projectOneShort: 'Logic, basic operations, testing, linting and Storybook.',
+      projectTwoType: 'Website Type',
+      projectTwoTitle: 'Movie Rating',
+      projectTwoShort: 'Responsive design and visual presentation.',
+      projectThreeType: 'Database Type',
+      projectThreeTitle: 'Management System',
+      projectThreeShort: 'Data organization and administrative interface.',
+      projectFourType: 'Game Type',
+      projectFourTitle: 'Snake',
+      projectFourShort: 'Recreation of the classic Snake game.',
+      projectFiveType: 'Game Type',
+      projectFiveTitle: 'Galaga',
+      projectFiveShort: 'Galaga built in C++ using threads.'
+    }
   },
 
   de: {
@@ -348,6 +385,25 @@ const translations = {
       reflectionText:
         'Dieses Projekt war interessant, weil ich experimentieren konnte, wie man mit Threads arbeitet, und dabei ein besseres Verhalten im Spiel im Vergleich zu normalem sequenziellem Code beobachten konnte.',
       repositoryButton: 'Repository'
+    },
+
+    projectsPage: {
+      title: 'PROJEKTE',
+      projectOneType: 'Webseiten-Typ',
+      projectOneTitle: 'Web-Rechner',
+      projectOneShort: 'Logik, Grundoperationen, Testing, Linting und Storybook.',
+      projectTwoType: 'Webseiten-Typ',
+      projectTwoTitle: 'Film-Bewertung',
+      projectTwoShort: 'Responsives Design und visuelle Präsentation.',
+      projectThreeType: 'Datenbank-Typ',
+      projectThreeTitle: 'Verwaltungssystem',
+      projectThreeShort: 'Datenorganisation und administrative Benutzeroberfläche.',
+      projectFourType: 'Spiel-Typ',
+      projectFourTitle: 'Snake',
+      projectFourShort: 'Nachbildung des klassischen Snake-Spiels.',
+      projectFiveType: 'Spiel-Typ',
+      projectFiveTitle: 'Galaga',
+      projectFiveShort: 'Galaga in C++ mit Threads entwickelt.'
     }
 
   },
@@ -466,6 +522,25 @@ const translations = {
       reflectionText:
         '这个项目很有意思，因为我实验了线程的工作方式，并且观察到与普通顺序代码相比，游戏表现更加流畅。',
       repositoryButton: '代码仓库'
+    },
+
+    projectsPage: {
+      title: '项目',
+      projectOneType: '网页类型',
+      projectOneTitle: '网页计算器',
+      projectOneShort: '逻辑、基本运算、测试、代码规范检查和 Storybook。',
+      projectTwoType: '网页类型',
+      projectTwoTitle: '电影评分',
+      projectTwoShort: '响应式设计和视觉展示。',
+      projectThreeType: '数据库类型',
+      projectThreeTitle: '管理系统',
+      projectThreeShort: '数据组织和管理界面。',
+      projectFourType: '游戏类型',
+      projectFourTitle: '贪吃蛇',
+      projectFourShort: '经典贪吃蛇游戏的重新制作。',
+      projectFiveType: '游戏类型',
+      projectFiveTitle: 'Galaga',
+      projectFiveShort: '使用 C++ 和线程开发的 Galaga。'
     }
   }
 }

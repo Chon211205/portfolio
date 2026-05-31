@@ -52,6 +52,22 @@ const translations = {
       reflectionText:
         'Este proyecto me ayudó a ver cómo funcionan el testing, linting y Storybook. En mi opinión son útiles para proyectos grandes para comprobar si algo falla y evitar acumular errores.',
       repositoryButton: 'Repositorio'
+    },
+
+    projectTwo: {
+      type: 'Tipo Página web',
+      title: 'Rating de películas',
+      description:
+        'Página para calificar películas y llevar un control de las series y películas vistas.',
+      technologiesTitle: 'Tecnologías',
+      demonstratesTitle: 'Qué demuestra',
+      demonstratesText:
+        'El objetivo de este proyecto es trabajar como full stack para tener experiencia como desarrollador frontend y backend.',
+      reflectionTitle: 'Reflexión',
+      reflectionText:
+        'Este proyecto me ayudó a vivir la experiencia como desarrollador frontend y backend. Desde ambas perspectivas fue agradable trabajar y siento que es bueno, porque no me tengo que limitar a solo un área.',
+      frontendRepositoryButton: 'Repositorio frontend',
+      backendRepositoryButton: 'Repositorio backend'
     }
   },
 
@@ -108,7 +124,24 @@ const translations = {
       reflectionText:
         'This project helped me understand how testing, linting and Storybook work. In my opinion, they are useful for large projects because they help detect failures and avoid accumulating errors.',
       repositoryButton: 'Repository'
+    },
+
+    projectTwo: {
+      type: 'Website Type',
+      title: 'Movie Rating',
+      description:
+        'A page to rate movies and keep track of watched series and movies.',
+      technologiesTitle: 'Technologies',
+      demonstratesTitle: 'What it demonstrates',
+      demonstratesText:
+        'The goal of this project is to work as a full stack developer and gain experience in both frontend and backend development.',
+      reflectionTitle: 'Reflection',
+      reflectionText:
+        'This project helped me experience both frontend and backend development. Working from both perspectives was enjoyable, and I think it is valuable because I do not have to limit myself to only one area.',
+      frontendRepositoryButton: 'Frontend repository',
+      backendRepositoryButton: 'Backend repository'
     }
+
   },
 
   de: {
@@ -164,7 +197,24 @@ const translations = {
       reflectionText:
         'Dieses Projekt hat mir geholfen zu verstehen, wie Testing, Linting und Storybook funktionieren. Meiner Meinung nach sind sie für große Projekte nützlich, weil sie helfen, Fehler zu erkennen und zu vermeiden, dass sich Probleme ansammeln.',
       repositoryButton: 'Repository'
+    },
+
+    projectTwo: {
+      type: 'Webseiten-Typ',
+      title: 'Film-Bewertung',
+      description:
+        'Eine Seite zum Bewerten von Filmen und zum Verwalten gesehener Serien und Filme.',
+      technologiesTitle: 'Technologien',
+      demonstratesTitle: 'Was es zeigt',
+      demonstratesText:
+        'Das Ziel dieses Projekts ist es, als Full-Stack-Entwickler zu arbeiten und Erfahrung sowohl im Frontend als auch im Backend zu sammeln.',
+      reflectionTitle: 'Reflexion',
+      reflectionText:
+        'Dieses Projekt hat mir geholfen, Erfahrungen als Frontend- und Backend-Entwickler zu sammeln. Aus beiden Perspektiven war die Arbeit angenehm, und ich finde es wertvoll, weil ich mich nicht nur auf einen Bereich beschränken muss.',
+      frontendRepositoryButton: 'Frontend-Repository',
+      backendRepositoryButton: 'Backend-Repository'
     }
+
   },
 
   zh: {
@@ -220,6 +270,22 @@ const translations = {
       reflectionText:
         '这个项目帮助我理解测试、代码规范检查和 Storybook 的工作方式。在我看来，它们对大型项目很有用，因为可以检查错误并避免问题不断累积。',
       repositoryButton: '代码仓库'
-    }
+    },
+    
+    projectTwo: {
+      type: '网页类型',
+      title: '电影评分',
+      description:
+        '一个用于给电影评分，并记录已观看电影和电视剧的页面。',
+      technologiesTitle: '技术',
+      demonstratesTitle: '展示内容',
+      demonstratesText:
+        '这个项目的目标是以全栈开发者的方式工作，并获得前端和后端开发的经验。',
+      reflectionTitle: '反思',
+      reflectionText:
+        '这个项目帮助我体验了前端和后端开发。从两个角度进行开发都很有意思，我认为这很有价值，因为我不需要只局限在一个领域。',
+      frontendRepositoryButton: '前端代码仓库',
+      backendRepositoryButton: '后端代码仓库'
+    }     
   }
 }

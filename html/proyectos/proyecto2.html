@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Proyecto 001</title>
+  <title>Proyecto 002</title>
   <link rel="stylesheet" href="../../css/styles.css">
 </head>
 <body class="project-iframe-body">
@@ -11,48 +11,71 @@
   <article class="project-detail-card iframe-project active">
 
     <div class="project-detail-screen">
-      <img src="/images/calculator.png" alt="calculator image">
+      <img src="../../images/rating.png" alt="movie rating image">
     </div>
 
     <div class="project-detail-top">
-      <span class="project-number">No. 001</span>
-      <span class="project-type electric-type">Tipo Página web</span>
+      <span class="project-number">No. 002</span>
+
+      <span class="project-type electric-type" data-i18n="projectTwo.type">
+        Tipo Página web
+      </span>
     </div>
 
-    <h2>Calculadora Web</h2>
+    <h2 data-i18n="projectTwo.title">Rating de películas</h2>
 
-    <p>
-      Calculadora enfocada en operaciones basicas con test y storybooks funcionales. 
+    <p data-i18n="projectTwo.description">
+      Página para calificar películas y llevar un control de las series y películas vistas.
     </p>
 
     <div class="project-info-box">
-      <h3>Tecnologías</h3>
+      <h3 data-i18n="projectTwo.technologiesTitle">Tecnologías</h3>
 
       <div class="tech-tags">
-        <span>TypeScript</span>
+        <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript</span>
-        <span>HTML</span>
+        <span>Go</span>
       </div>
     </div>
 
     <div class="project-info-box">
-      <h3>Qué demuestra</h3>
-      <p>
-        El objetivo de este proyecto es prácticar los conceptos alrededor diseño de aplicaciones en base a componentes.
-        También aplicar testing, linting y Storybook.
+      <h3 data-i18n="projectTwo.demonstratesTitle">Qué demuestra</h3>
+
+      <p data-i18n="projectTwo.demonstratesText">
+        El objetivo de este proyecto es trabajar como full stack para tener experiencia
+        como desarrollador frontend y backend.
       </p>
     </div>
 
     <div class="project-info-box">
-      <h3>Reflexión</h3>
-      <p>
-        Este proyecto me ayudo a ver como funcionan los testing, linting y Storybook. En mi opinión son útiles para proyectos grandes para comprobar si algo falla y evitar acumular errores.
+      <h3 data-i18n="projectTwo.reflectionTitle">Reflexión</h3>
+
+      <p data-i18n="projectTwo.reflectionText">
+        Este proyecto me ayudó a vivir la experiencia como desarrollador frontend y backend.
+        Desde ambas perspectivas fue agradable trabajar y siento que es bueno, porque no me
+        tengo que limitar a solo un área.
       </p>
     </div>
 
     <div class="project-actions">
-      <a href="https://github.com/Chon211205/Calculator.git" target="_blank" rel="noopener noreferrer">Repositorio</a>
+      <a
+        href="https://github.com/Chon211205/proyecto1WebFront.git"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="projectTwo.frontendRepositoryButton"
+      >
+        Repositorio frontend
+      </a>
+
+      <a
+        href="https://github.com/Chon211205/proyectoWeb1BackEnd.git"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="projectTwo.backendRepositoryButton"
+      >
+        Repositorio backend
+      </a>
     </div>
 
   </article>
@@ -61,6 +84,9 @@
   <script>
     lucide.createIcons()
   </script>
+
+  <script src="../../js/translations.js"></script>
+  <script src="../../js/language.js"></script>
 
 </body>
 </html>

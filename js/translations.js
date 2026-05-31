@@ -83,7 +83,22 @@ const translations = {
       reflectionText:
         'Este proyecto fue un reto para mí debido a que puso a prueba mis conocimientos en el manejo de bases de datos, consultas y seguridad de los datos.',
       repositoryButton: 'Repositorio'
-    }
+    },
+
+    projectFour: {
+      type: 'Tipo Juego',
+      title: 'Snake',
+      description:
+        'Recreación del juego clásico de Snake.',
+      technologiesTitle: 'Tecnologías',
+      demonstratesTitle: 'Qué demuestra',
+      demonstratesText:
+        'El proyecto demuestra el uso de React vía CDN junto con Babel vía CDN para realizar el juego de Snake por medio de componentes.',
+      reflectionTitle: 'Reflexión',
+      reflectionText:
+        'Este proyecto fue divertido al ver las amplias opciones que se pueden llegar a realizar utilizando useEffect y useState.',
+      repositoryButton: 'Repositorio'
+    }    
   },
 
   en: {
@@ -170,7 +185,22 @@ const translations = {
       reflectionText:
         'This project was a challenge for me because it tested my knowledge of database management, queries and data security.',
       repositoryButton: 'Repository'
-    }
+    },
+
+    projectFour: {
+      type: 'Game Type',
+      title: 'Snake',
+      description:
+        'A recreation of the classic Snake game.',
+      technologiesTitle: 'Technologies',
+      demonstratesTitle: 'What it demonstrates',
+      demonstratesText:
+        'The project demonstrates the use of React through a CDN together with Babel through a CDN to build the Snake game using components.',
+      reflectionTitle: 'Reflection',
+      reflectionText:
+        'This project was fun because it showed me the wide range of possibilities that can be created using useEffect and useState.',
+      repositoryButton: 'Repository'
+    }    
 
   },
 
@@ -258,8 +288,22 @@ const translations = {
       reflectionText:
         'Dieses Projekt war eine Herausforderung für mich, weil es mein Wissen über Datenbankverwaltung, Abfragen und Datensicherheit auf die Probe gestellt hat.',
       repositoryButton: 'Repository'
-    }
+    },
 
+    projectFour: {
+      type: 'Spiel-Typ',
+      title: 'Snake',
+      description:
+        'Eine Nachbildung des klassischen Snake-Spiels.',
+      technologiesTitle: 'Technologien',
+      demonstratesTitle: 'Was es zeigt',
+      demonstratesText:
+        'Das Projekt zeigt die Verwendung von React über ein CDN zusammen mit Babel über ein CDN, um das Snake-Spiel mithilfe von Komponenten zu erstellen.',
+      reflectionTitle: 'Reflexion',
+      reflectionText:
+        'Dieses Projekt hat Spaß gemacht, weil ich sehen konnte, welche vielfältigen Möglichkeiten mit useEffect und useState umgesetzt werden können.',
+      repositoryButton: 'Repository'
+    }    
   },
 
   zh: {
@@ -345,6 +389,21 @@ const translations = {
       reflectionTitle: '反思',
       reflectionText:
         '这个项目对我来说是一个挑战，因为它考验了我在数据库管理、查询和数据安全方面的知识。',
+      repositoryButton: '代码仓库'
+    },
+
+    projectFour: {
+      type: '游戏类型',
+      title: '贪吃蛇',
+      description:
+        '经典贪吃蛇游戏的重新制作。',
+      technologiesTitle: '技术',
+      demonstratesTitle: '展示内容',
+      demonstratesText:
+        '这个项目展示了如何通过 CDN 使用 React，并结合通过 CDN 使用 Babel，以组件的方式制作贪吃蛇游戏。',
+      reflectionTitle: '反思',
+      reflectionText:
+        '这个项目很有趣，因为它让我看到了使用 useEffect 和 useState 可以实现很多不同的功能。',
       repositoryButton: '代码仓库'
     }
   }

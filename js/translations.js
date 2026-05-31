@@ -68,6 +68,21 @@ const translations = {
         'Este proyecto me ayudó a vivir la experiencia como desarrollador frontend y backend. Desde ambas perspectivas fue agradable trabajar y siento que es bueno, porque no me tengo que limitar a solo un área.',
       frontendRepositoryButton: 'Repositorio frontend',
       backendRepositoryButton: 'Repositorio backend'
+    },
+
+    projectThree: {
+      type: 'Tipo Base de datos',
+      title: 'Sistema de gestión',
+      description:
+        'Sistema de gestión para una tienda, poniendo en práctica conocimientos de base de datos.',
+      technologiesTitle: 'Tecnologías',
+      demonstratesTitle: 'Qué demuestra',
+      demonstratesText:
+        'El proyecto demuestra el manejo de base de datos con triggers, joins y consultas select. También integra un backend en Node.js/Express y un frontend construido en React + Vite. Todo se encuentra dentro de un contenedor de Docker para levantar el proyecto.',
+      reflectionTitle: 'Reflexión',
+      reflectionText:
+        'Este proyecto fue un reto para mí debido a que puso a prueba mis conocimientos en el manejo de bases de datos, consultas y seguridad de los datos.',
+      repositoryButton: 'Repositorio'
     }
   },
 
@@ -140,6 +155,21 @@ const translations = {
         'This project helped me experience both frontend and backend development. Working from both perspectives was enjoyable, and I think it is valuable because I do not have to limit myself to only one area.',
       frontendRepositoryButton: 'Frontend repository',
       backendRepositoryButton: 'Backend repository'
+    },
+
+    projectThree: {
+      type: 'Database Type',
+      title: 'Management System',
+      description:
+        'A management system for a store, applying database knowledge in a practical project.',
+      technologiesTitle: 'Technologies',
+      demonstratesTitle: 'What it demonstrates',
+      demonstratesText:
+        'The project demonstrates database management using triggers, joins and select queries. It also integrates a Node.js/Express backend and a frontend built with React + Vite. Everything runs inside a Docker container to start the project.',
+      reflectionTitle: 'Reflection',
+      reflectionText:
+        'This project was a challenge for me because it tested my knowledge of database management, queries and data security.',
+      repositoryButton: 'Repository'
     }
 
   },
@@ -213,6 +243,21 @@ const translations = {
         'Dieses Projekt hat mir geholfen, Erfahrungen als Frontend- und Backend-Entwickler zu sammeln. Aus beiden Perspektiven war die Arbeit angenehm, und ich finde es wertvoll, weil ich mich nicht nur auf einen Bereich beschränken muss.',
       frontendRepositoryButton: 'Frontend-Repository',
       backendRepositoryButton: 'Backend-Repository'
+    },
+
+    projectThree: {
+      type: 'Datenbank-Typ',
+      title: 'Verwaltungssystem',
+      description:
+        'Ein Verwaltungssystem für ein Geschäft, bei dem Datenbankkenntnisse praktisch angewendet werden.',
+      technologiesTitle: 'Technologien',
+      demonstratesTitle: 'Was es zeigt',
+      demonstratesText:
+        'Das Projekt zeigt den Umgang mit Datenbanken durch Trigger, Joins und Select-Abfragen. Außerdem integriert es ein Backend mit Node.js/Express und ein Frontend mit React + Vite. Alles befindet sich in einem Docker-Container, um das Projekt zu starten.',
+      reflectionTitle: 'Reflexion',
+      reflectionText:
+        'Dieses Projekt war eine Herausforderung für mich, weil es mein Wissen über Datenbankverwaltung, Abfragen und Datensicherheit auf die Probe gestellt hat.',
+      repositoryButton: 'Repository'
     }
 
   },
@@ -286,6 +331,21 @@ const translations = {
         '这个项目帮助我体验了前端和后端开发。从两个角度进行开发都很有意思，我认为这很有价值，因为我不需要只局限在一个领域。',
       frontendRepositoryButton: '前端代码仓库',
       backendRepositoryButton: '后端代码仓库'
-    }     
+    },
+    
+    projectThree: {
+      type: '数据库类型',
+      title: '管理系统',
+      description:
+        '一个用于商店的管理系统，用来实践数据库相关知识。',
+      technologiesTitle: '技术',
+      demonstratesTitle: '展示内容',
+      demonstratesText:
+        '这个项目展示了数据库管理能力，包括触发器、连接查询和 select 查询。它还集成了 Node.js/Express 后端和使用 React + Vite 构建的前端。整个项目都放在 Docker 容器中运行。',
+      reflectionTitle: '反思',
+      reflectionText:
+        '这个项目对我来说是一个挑战，因为它考验了我在数据库管理、查询和数据安全方面的知识。',
+      repositoryButton: '代码仓库'
+    }
   }
 }

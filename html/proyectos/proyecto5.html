@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 005</title>
+  <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body class="project-iframe-body">
+
+  <article class="project-detail-card iframe-project active">
+
+    <div class="project-detail-screen">
+      <img src="../../images/galaga.png" alt="galaga game image">
+    </div>
+
+    <div class="project-detail-top">
+      <span class="project-number">No. 005</span>
+
+      <span class="project-type grass-type" data-i18n="projectFive.type">
+        Tipo Juego
+      </span>
+    </div>
+
+    <h2 data-i18n="projectFive.title">Galaga</h2>
+
+    <p data-i18n="projectFive.description">
+      Galaga programado con C++ trabajando con threads.
+    </p>
+
+    <div class="project-info-box">
+      <h3 data-i18n="projectFive.technologiesTitle">Tecnologías</h3>
+
+      <div class="tech-tags">
+        <span>C++</span>
+      </div>
+    </div>
+
+    <div class="project-info-box">
+      <h3 data-i18n="projectFive.demonstratesTitle">Qué demuestra</h3>
+
+      <p data-i18n="projectFive.demonstratesText">
+        El proyecto demuestra el uso de hilos porque permite que el juego ejecute
+        procesos de forma paralela mientras la partida está activa. En lugar de que
+        todo ocurra en una sola secuencia bloqueante, el programa puede mantener la
+        lógica principal del juego funcionando al mismo tiempo que controla otras
+        acciones, como la actualización del entorno o el comportamiento interno del juego.
+      </p>
+    </div>
+
+    <div class="project-info-box">
+      <h3 data-i18n="projectFive.reflectionTitle">Reflexión</h3>
+
+      <p data-i18n="projectFive.reflectionText">
+        Este proyecto fue interesante al experimentar cómo se trabaja con hilos,
+        observando un mejor comportamiento en el juego en comparación con un código normal.
+      </p>
+    </div>
+
+    <div class="project-actions">
+      <a
+        href="https://github.com/Chon211205/galaga.git"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="projectFive.repositoryButton"
+      >
+        Repositorio
+      </a>
+    </div>
+
+  </article>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons()
+  </script>
+
+  <script src="../../js/translations.js"></script>
+  <script src="../../js/language.js"></script>
+
+</body>
+</html>

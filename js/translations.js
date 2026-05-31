@@ -98,7 +98,22 @@ const translations = {
       reflectionText:
         'Este proyecto fue divertido al ver las amplias opciones que se pueden llegar a realizar utilizando useEffect y useState.',
       repositoryButton: 'Repositorio'
-    }    
+    },
+    
+    projectFive: {
+      type: 'Tipo Juego',
+      title: 'Galaga',
+      description:
+        'Galaga programado con C++ trabajando con threads.',
+      technologiesTitle: 'Tecnologías',
+      demonstratesTitle: 'Qué demuestra',
+      demonstratesText:
+        'El proyecto demuestra el uso de hilos porque permite que el juego ejecute procesos de forma paralela mientras la partida está activa. En lugar de que todo ocurra en una sola secuencia bloqueante, el programa puede mantener la lógica principal del juego funcionando al mismo tiempo que controla otras acciones, como la actualización del entorno o el comportamiento interno del juego.',
+      reflectionTitle: 'Reflexión',
+      reflectionText:
+        'Este proyecto fue interesante al experimentar cómo se trabaja con hilos, observando un mejor comportamiento en el juego en comparación con un código normal.',
+      repositoryButton: 'Repositorio'
+    }
   },
 
   en: {
@@ -200,7 +215,22 @@ const translations = {
       reflectionText:
         'This project was fun because it showed me the wide range of possibilities that can be created using useEffect and useState.',
       repositoryButton: 'Repository'
-    }    
+    },
+    
+    projectFive: {
+      type: 'Game Type',
+      title: 'Galaga',
+      description:
+        'Galaga programmed in C++ using threads.',
+      technologiesTitle: 'Technologies',
+      demonstratesTitle: 'What it demonstrates',
+      demonstratesText:
+        'The project demonstrates the use of threads because it allows the game to run processes in parallel while the match is active. Instead of everything happening in a single blocking sequence, the program can keep the main game logic running while also controlling other actions, such as updating the environment or handling the internal behavior of the game.',
+      reflectionTitle: 'Reflection',
+      reflectionText:
+        'This project was interesting because I experimented with how threads work and observed better behavior in the game compared to normal sequential code.',
+      repositoryButton: 'Repository'
+    }
 
   },
 
@@ -303,7 +333,23 @@ const translations = {
       reflectionText:
         'Dieses Projekt hat Spaß gemacht, weil ich sehen konnte, welche vielfältigen Möglichkeiten mit useEffect und useState umgesetzt werden können.',
       repositoryButton: 'Repository'
-    }    
+    },
+    
+    projectFive: {
+      type: 'Spiel-Typ',
+      title: 'Galaga',
+      description:
+        'Galaga programmiert in C++ mit Threads.',
+      technologiesTitle: 'Technologien',
+      demonstratesTitle: 'Was es zeigt',
+      demonstratesText:
+        'Das Projekt zeigt die Verwendung von Threads, weil das Spiel dadurch Prozesse parallel ausführen kann, während die Partie aktiv ist. Anstatt dass alles in einer einzigen blockierenden Sequenz passiert, kann das Programm die Hauptlogik des Spiels weiter ausführen und gleichzeitig andere Aktionen steuern, wie die Aktualisierung der Umgebung oder das interne Verhalten des Spiels.',
+      reflectionTitle: 'Reflexion',
+      reflectionText:
+        'Dieses Projekt war interessant, weil ich experimentieren konnte, wie man mit Threads arbeitet, und dabei ein besseres Verhalten im Spiel im Vergleich zu normalem sequenziellem Code beobachten konnte.',
+      repositoryButton: 'Repository'
+    }
+
   },
 
   zh: {
@@ -404,6 +450,21 @@ const translations = {
       reflectionTitle: '反思',
       reflectionText:
         '这个项目很有趣，因为它让我看到了使用 useEffect 和 useState 可以实现很多不同的功能。',
+      repositoryButton: '代码仓库'
+    },
+
+    projectFive: {
+      type: '游戏类型',
+      title: 'Galaga',
+      description:
+        '使用 C++ 和线程编写的 Galaga 游戏。',
+      technologiesTitle: '技术',
+      demonstratesTitle: '展示内容',
+      demonstratesText:
+        '这个项目展示了线程的使用，因为它允许游戏在运行时并行执行多个过程。程序不需要所有内容都按照单一的阻塞顺序执行，而是可以在保持游戏主要逻辑运行的同时，控制其他操作，例如环境更新或游戏内部行为。',
+      reflectionTitle: '反思',
+      reflectionText:
+        '这个项目很有意思，因为我实验了线程的工作方式，并且观察到与普通顺序代码相比，游戏表现更加流畅。',
       repositoryButton: '代码仓库'
     }
   }

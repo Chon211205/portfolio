@@ -694,6 +694,12 @@ body {
   height: 38px;
 }
 
+.project-dex-icon img {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+
 .project-dex-info h2 {
   color: #c1121f;
   font-size: 24px;

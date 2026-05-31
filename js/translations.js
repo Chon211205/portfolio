@@ -14,7 +14,7 @@ const translations = {
     menu: {
       title: 'MENÚ PRINCIPAL',
       subtitle: 'Selecciona una sección',
-      trainerCard: 'Trainer Card',
+      trainerCard: 'Sobre mí',
       trainerCardDesc: 'Información personal y perfil profesional.',
       projects: 'Proyectos',
       projectsDesc: 'Trabajos realizados y experiencias de desarrollo.',
@@ -29,7 +29,7 @@ const translations = {
     },
 
     trainer: {
-      title: 'TRAINER CARD',
+      title: 'Sobre mí',
       profileTitle: 'Perfil',
       profileText:
         'Soy un desarrollador web en formación, enfocado en crear interfaces claras, funcionales y visualmente atractivas. Este portafolio presenta mi información de forma interactiva, organizada y con una identidad visual diferente. Elegí esta estética porque Pokémon es uno de mis videojuegos favoritos y marcó parte de mi vida.',
@@ -150,7 +150,7 @@ const translations = {
     menu: {
       title: 'MAIN MENU',
       subtitle: 'Select a section',
-      trainerCard: 'Trainer Card',
+      trainerCard: 'About me',
       trainerCardDesc: 'Personal information and professional profile.',
       projects: 'Projects',
       projectsDesc: 'Development work and project experience.',
@@ -286,7 +286,7 @@ const translations = {
     menu: {
       title: 'HAUPTMENÜ',
       subtitle: 'Wähle einen Abschnitt',
-      trainerCard: 'Trainerkarte',
+      trainerCard: 'über mich',
       trainerCardDesc: 'Persönliche Informationen und berufliches Profil.',
       projects: 'Projekte',
       projectsDesc: 'Entwicklungsarbeiten und Projekterfahrungen.',
@@ -423,7 +423,7 @@ const translations = {
     menu: {
       title: '主菜单',
       subtitle: '选择一个部分',
-      trainerCard: '训练师卡',
+      trainerCard: '关于我',
       trainerCardDesc: '个人信息和职业简介。',
       projects: '项目',
       projectsDesc: '开发作品和项目经验。',

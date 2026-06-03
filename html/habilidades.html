@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habilidades | Chon</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <main class="pokedex-container">
+
+    <section class="skills-page">
+
+      <header class="trainer-header">
+        <a href="index.html" class="back-button">
+          <i data-lucide="arrow-left"></i>
+          <span data-i18n="site.back">Volver</span>
+        </a>
+
+        <div class="title-box">
+          <p data-i18n="skillsPage.title">MEDALLAS DE HABILIDAD</p>
+        </div>
+
+        <div class="language-box">
+          <label for="language-select" class="sr-only">Seleccionar idioma</label>
+
+          <select id="language-select" class="language-select">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+      </header>
+
+      <section class="skills-content">
+
+        <div class="skills-intro-card">
+          <span class="skills-badge" data-i18n="skillsPage.badge">GYM BADGES</span>
+          <h1 data-i18n="skillsPage.heading">Mis medallas técnicas</h1>
+          <p data-i18n="skillsPage.intro">
+            Cada medalla representa una habilidad que he desarrollado en mis proyectos.
+            La idea es mostrar mi stack de forma visual, clara y conectada con la temática del portafolio.
+          </p>
+        </div>
+
+        <section class="badges-grid">
+
+          <article class="gym-badge-card html-badge">
+            <div class="gym-badge">
+              <i data-lucide="file-code-2"></i>
+            </div>
+
+            <h2>HTML</h2>
+            <p data-i18n="skillsPage.htmlDesc">
+              Estructura semántica, organización del contenido y bases sólidas para sitios web.
+            </p>
+
+            <div class="skill-level">
+              <span data-i18n="skillsPage.levelHigh">Nivel alto</span>
+              <div class="skill-bar">
+                <div class="skill-fill html-fill"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="gym-badge-card css-badge">
+            <div class="gym-badge">
+              <i data-lucide="paintbrush"></i>
+            </div>
+
+            <h2>CSS</h2>
+            <p data-i18n="skillsPage.cssDesc">
+              Diseño responsivo, estilos personalizados, layouts y construcción visual de interfaces.
+            </p>
+
+            <div class="skill-level">
+              <span data-i18n="skillsPage.levelHigh">Nivel alto</span>
+              <div class="skill-bar">
+                <div class="skill-fill css-fill"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="gym-badge-card js-badge">
+            <div class="gym-badge">
+              <i data-lucide="square-code"></i>
+            </div>
+
+            <h2>JavaScript</h2>
+            <p data-i18n="skillsPage.jsDesc">
+              Interactividad, manipulación del DOM, eventos, lógica y funcionalidades dinámicas.
+            </p>
+
+            <div class="skill-level">
+              <span data-i18n="skillsPage.levelMedium">Nivel medio</span>
+              <div class="skill-bar">
+                <div class="skill-fill js-fill"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="gym-badge-card react-badge">
+            <div class="gym-badge">
+              <i data-lucide="atom"></i>
+            </div>
+
+            <h2>React</h2>
+            <p data-i18n="skillsPage.reactDesc">
+              Componentes, estado, hooks y construcción de interfaces reutilizables.
+            </p>
+
+            <div class="skill-level">
+              <span data-i18n="skillsPage.levelMedium">Nivel medio</span>
+              <div class="skill-bar">
+                <div class="skill-fill react-fill"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="gym-badge-card db-badge">
+            <div class="gym-badge">
+              <i data-lucide="database"></i>
+            </div>
+
+            <h2>PostgreSQL</h2>
+            <p data-i18n="skillsPage.dbDesc">
+              Consultas, relaciones, joins, triggers y manejo de información en bases de datos.
+            </p>
+
+            <div class="skill-level">
+              <span data-i18n="skillsPage.levelMedium">Nivel medio</span>
+              <div class="skill-bar">
+                <div class="skill-fill db-fill"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="gym-badge-card tools-badge">
+            <div class="gym-badge">
+              <i data-lucide="wrench"></i>
+            </div>
+
+            <h2 data-i18n="skillsPage.toolsTitle">Herramientas</h2>
+            <p data-i18n="skillsPage.toolsDesc">
+              GitHub, Docker, testing, linting y organización del flujo de trabajo.
+            </p>
+
+            <div class="skill-level">
+              <span data-i18n="skillsPage.levelGrowing">En crecimiento</span>
+              <div class="skill-bar">
+                <div class="skill-fill tools-fill"></div>
+              </div>
+            </div>
+          </article>
+
+            <article class="gym-badge-card python-badge">
+            <div class="gym-badge">
+                <i data-lucide="terminal"></i>
+            </div>
+
+            <h2>Python</h2>
+            <p data-i18n="skillsPage.pythonDesc">
+                Programación, lógica, automatización y resolución de problemas con código claro.
+            </p>
+
+            <div class="skill-level">
+                <span data-i18n="skillsPage.levelHigh">Nivel alto</span>
+                <div class="skill-bar">
+                <div class="skill-fill python-fill"></div>
+                </div>
+            </div>
+            </article>
+
+            <article class="gym-badge-card java-badge">
+            <div class="gym-badge">
+                <i data-lucide="coffee"></i>
+            </div>
+
+            <h2>Java</h2>
+            <p data-i18n="skillsPage.javaDesc">
+                Programación orientada a objetos, estructuras de datos y desarrollo de aplicaciones.
+            </p>
+
+            <div class="skill-level">
+                <span data-i18n="skillsPage.levelMedium">Nivel medio</span>
+                <div class="skill-bar">
+                <div class="skill-fill java-fill"></div>
+                </div>
+            </div>
+            </article>
+
+            <article class="gym-badge-card blender-badge">
+            <div class="gym-badge">
+                <i data-lucide="box"></i>
+            </div>
+
+            <h2>Blender</h2>
+            <p data-i18n="skillsPage.blenderDesc">
+                Modelado 3D, composición visual y creación de recursos gráficos para proyectos.
+            </p>
+
+            <div class="skill-level">
+                <span data-i18n="skillsPage.levelGrowing">En crecimiento</span>
+                <div class="skill-bar">
+                <div class="skill-fill blender-fill"></div>
+                </div>
+            </div>
+            </article>
+
+            <article class="gym-badge-card kotlin-badge">
+            <div class="gym-badge">
+                <i data-lucide="smartphone"></i>
+            </div>
+
+            <h2>Kotlin</h2>
+            <p data-i18n="skillsPage.kotlinDesc">
+                Desarrollo móvil, lógica de aplicaciones y bases para crear interfaces en Android.
+            </p>
+
+            <div class="skill-level">
+                <span data-i18n="skillsPage.levelGrowing">En crecimiento</span>
+                <div class="skill-bar">
+                <div class="skill-fill kotlin-fill"></div>
+                </div>
+            </div>
+            </article>
+
+            <article class="gym-badge-card cpp-badge">
+            <div class="gym-badge">
+                <i data-lucide="cpu"></i>
+            </div>
+
+            <h2>C++</h2>
+            <p data-i18n="skillsPage.cppDesc">
+                Programación estructurada, manejo de lógica, memoria, hilos y desarrollo de juegos.
+            </p>
+
+            <div class="skill-level">
+                <span data-i18n="skillsPage.levelMedium">Nivel medio</span>
+                <div class="skill-bar">
+                <div class="skill-fill cpp-fill"></div>
+                </div>
+            </div>
+            </article>
+        </section>
+
+      </section>
+
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons()
+  </script>
+
+  <script src="../js/translations.js"></script>
+  <script src="../js/language.js"></script>
+
+</body>
+</html>

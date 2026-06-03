@@ -132,7 +132,43 @@ const translations = {
       projectFiveType: 'Tipo Juego',
       projectFiveTitle: 'Galaga',
       projectFiveShort: 'Galaga trabajado en C++ con hilos.'
-    }
+    },
+
+    skillsPage: {
+      title: 'MEDALLAS DE HABILIDAD',
+      badge: 'GYM BADGES',
+      heading: 'Mis medallas técnicas',
+      intro:
+        'Cada medalla representa una habilidad que he desarrollado en mis proyectos. La idea es mostrar mi stack de forma visual, clara y conectada con la temática del portafolio.',
+      htmlDesc:
+        'Estructura semántica, organización del contenido y bases sólidas para sitios web.',
+      cssDesc:
+        'Diseño responsivo, estilos personalizados, layouts y construcción visual de interfaces.',
+      jsDesc:
+        'Interactividad, manipulación del DOM, eventos, lógica y funcionalidades dinámicas.',
+      reactDesc:
+        'Componentes, estado, hooks y construcción de interfaces reutilizables.',
+      dbDesc:
+        'Consultas, relaciones, joins, triggers y manejo de información en bases de datos.',
+      toolsTitle: 'Herramientas',
+      toolsDesc:
+        'GitHub, Docker, testing, linting y organización del flujo de trabajo.',
+      pythonDesc:
+        'Programación, lógica, automatización y resolución de problemas con código claro.',
+      javaDesc:
+        'Programación orientada a objetos, estructuras de datos y desarrollo de aplicaciones.',
+      blenderDesc:
+        'Modelado 3D, composición visual y creación de recursos gráficos para proyectos.',  
+      kotlinDesc:
+        'Desarrollo móvil, lógica de aplicaciones y bases para crear interfaces en Android.',
+      cppDesc:
+        'Programación estructurada, manejo de lógica, memoria, hilos y desarrollo de juegos.',
+
+      levelHigh: 'Nivel alto',
+      levelMedium: 'Nivel medio',
+      levelGrowing: 'En crecimiento'
+    },
+
   },
 
   en: {
@@ -268,7 +304,42 @@ const translations = {
       projectFiveType: 'Game Type',
       projectFiveTitle: 'Galaga',
       projectFiveShort: 'Galaga built in C++ using threads.'
-    }
+    },
+
+    skillsPage: {
+      title: 'SKILL BADGES',
+      badge: 'GYM BADGES',
+      heading: 'My technical badges',
+      intro:
+        'Each badge represents a skill I have developed through my projects. The goal is to show my stack in a visual, clear way connected to the portfolio theme.',
+      htmlDesc:
+        'Semantic structure, content organization and solid foundations for websites.',
+      cssDesc:
+        'Responsive design, custom styles, layouts and visual interface construction.',
+      jsDesc:
+        'Interactivity, DOM manipulation, events, logic and dynamic functionality.',
+      reactDesc:
+        'Components, state, hooks and reusable interface construction.',
+      dbDesc:
+        'Queries, relationships, joins, triggers and database information management.',
+      toolsTitle: 'Tools',
+      toolsDesc:
+        'GitHub, Docker, testing, linting and workflow organization.',
+      pythonDesc:
+        'Programming, logic, automation and problem solving with clear code.',
+      javaDesc:
+        'Object-oriented programming, data structures and application development.',
+      blenderDesc:
+        '3D modeling, visual composition and creation of graphic assets for projects.',
+      kotlinDesc:
+        'Mobile development, application logic and foundations for creating Android interfaces.',
+      cppDesc:
+        'Structured programming, logic handling, memory, threads and game development.',
+      levelHigh: 'High level',
+      levelMedium: 'Medium level',
+      levelGrowing: 'Growing'
+    },
+
   },
 
   de: {
@@ -404,7 +475,41 @@ const translations = {
       projectFiveType: 'Spiel-Typ',
       projectFiveTitle: 'Galaga',
       projectFiveShort: 'Galaga in C++ mit Threads entwickelt.'
-    }
+    },
+
+    skillsPage: {
+      title: 'FÄHIGKEITSABZEICHEN',
+      badge: 'GYM BADGES',
+      heading: 'Meine technischen Abzeichen',
+      intro:
+        'Jedes Abzeichen steht für eine Fähigkeit, die ich durch meine Projekte entwickelt habe. Ziel ist es, meinen Stack visuell, klar und passend zur Portfolio-Thematik zu zeigen.',
+      htmlDesc:
+        'Semantische Struktur, Inhaltsorganisation und solide Grundlagen für Webseiten.',
+      cssDesc:
+        'Responsives Design, individuelle Stile, Layouts und visuelle Gestaltung von Benutzeroberflächen.',
+      jsDesc:
+        'Interaktivität, DOM-Manipulation, Events, Logik und dynamische Funktionen.',
+      reactDesc:
+        'Komponenten, State, Hooks und Aufbau wiederverwendbarer Benutzeroberflächen.',
+      dbDesc:
+        'Abfragen, Beziehungen, Joins, Trigger und Verwaltung von Informationen in Datenbanken.',
+      toolsTitle: 'Werkzeuge',
+      toolsDesc:
+        'GitHub, Docker, Testing, Linting und Organisation des Arbeitsablaufs.',
+      pythonDesc:
+        'Programmierung, Logik, Automatisierung und Problemlösung mit klarem Code.',
+      javaDesc:
+        'Objektorientierte Programmierung, Datenstrukturen und Anwendungsentwicklung.',
+      blenderDesc:
+        '3D-Modellierung, visuelle Komposition und Erstellung grafischer Ressourcen für Projekte.',
+      kotlinDesc:
+        'Mobile Entwicklung, Anwendungslogik und Grundlagen zur Erstellung von Android-Oberflächen.',
+      cppDesc:
+        'Strukturierte Programmierung, Logik, Speicherverwaltung, Threads und Spieleentwicklung.',
+      levelHigh: 'Hohes Niveau',
+      levelMedium: 'Mittleres Niveau',
+      levelGrowing: 'Im Wachstum'
+    },
 
   },
 
@@ -541,6 +646,41 @@ const translations = {
       projectFiveType: '游戏类型',
       projectFiveTitle: 'Galaga',
       projectFiveShort: '使用 C++ 和线程开发的 Galaga。'
+    },
+
+    skillsPage: {
+      title: '技能徽章',
+      badge: '道馆徽章',
+      heading: '我的技术徽章',
+      intro:
+        '每个徽章代表我在项目中培养的一项技能。目标是以清晰、直观并符合作品集主题的方式展示我的技术栈。',
+      htmlDesc:
+        '语义化结构、内容组织以及网站开发的坚实基础。',
+      cssDesc:
+        '响应式设计、自定义样式、布局以及界面视觉构建。',
+      jsDesc:
+        '交互性、DOM 操作、事件处理、逻辑和动态功能。',
+      reactDesc:
+        '组件、状态、Hooks 以及可复用界面的构建。',
+      dbDesc:
+        '查询、关系、连接、触发器以及数据库信息管理。',
+      toolsTitle: '工具',
+      toolsDesc:
+        'GitHub、Docker、测试、代码规范检查以及工作流程组织。',
+      pythonDesc:
+        '编程、逻辑、自动化以及使用清晰代码解决问题。',
+      javaDesc:
+        '面向对象编程、数据结构和应用程序开发。',
+      blenderDesc:
+        '3D 建模、视觉构图以及为项目创建图形资源。',
+      kotlinDesc:
+        '移动开发、应用逻辑以及创建 Android 界面的基础。',
+      cppDesc:
+        '结构化编程、逻辑处理、内存、线程和游戏开发。',
+      levelHigh: '高级',
+      levelMedium: '中级',
+      levelGrowing: '成长中'
     }
+
   }
 }

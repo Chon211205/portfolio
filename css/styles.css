@@ -1024,3 +1024,267 @@ body {
   background: #ffffff;
   overflow: auto;
 }
+
+/*Habilidades*/
+
+.skills-page {
+  background: #e63946;
+  border: 6px solid #1f1f1f;
+  border-radius: 30px;
+  box-shadow: 12px 12px 0 #1f1f1f;
+  overflow: hidden;
+}
+
+.skills-content {
+  padding: 32px;
+}
+
+.skills-intro-card {
+  background: #f8fafc;
+  border: 5px solid #1f1f1f;
+  border-radius: 24px;
+  padding: 28px;
+  margin-bottom: 28px;
+  box-shadow: inset 0 0 0 5px #ffffff;
+}
+
+.skills-badge {
+  display: inline-block;
+  background: #ffcb05;
+  border: 3px solid #1f1f1f;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.skills-intro-card h1 {
+  font-size: 42px;
+  color: #2a75bb;
+  text-shadow: 3px 3px 0 #ffcb05;
+  margin-bottom: 12px;
+}
+
+.skills-intro-card p {
+  font-weight: bold;
+  line-height: 1.6;
+  max-width: 850px;
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.gym-badge-card {
+  background: #ffffff;
+  border: 5px solid #1f1f1f;
+  border-radius: 24px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 7px 7px 0 #1f1f1f;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gym-badge-card:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 2px 2px 0 #1f1f1f;
+}
+
+.gym-badge {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 18px;
+  border: 5px solid #1f1f1f;
+  display: grid;
+  place-items: center;
+  background: #ffcb05;
+  box-shadow: 5px 5px 0 #1f1f1f;
+  clip-path: polygon(
+    50% 0%,
+    63% 22%,
+    88% 18%,
+    78% 42%,
+    100% 56%,
+    74% 63%,
+    76% 90%,
+    50% 76%,
+    24% 90%,
+    26% 63%,
+    0% 56%,
+    22% 42%,
+    12% 18%,
+    37% 22%
+  );
+}
+
+.gym-badge svg {
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
+  stroke-width: 3;
+  filter: drop-shadow(3px 3px 0 #1f1f1f);
+}
+
+.html-badge .gym-badge {
+  background: #ef233c;
+}
+
+.css-badge .gym-badge {
+  background: #2a75bb;
+}
+
+.js-badge .gym-badge {
+  background: #ffcb05;
+}
+
+.react-badge .gym-badge {
+  background: #7dd3fc;
+}
+
+.db-badge .gym-badge {
+  background: #6c757d;
+}
+
+.tools-badge .gym-badge {
+  background: #38b000;
+}
+
+.gym-badge-card h2 {
+  font-size: 26px;
+  color: #c1121f;
+  margin-bottom: 12px;
+}
+
+.gym-badge-card p {
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.skill-level {
+  text-align: left;
+}
+
+.skill-level span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.skill-bar {
+  height: 20px;
+  background: #e5e7eb;
+  border: 3px solid #1f1f1f;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.skill-fill {
+  height: 100%;
+}
+
+.html-fill {
+  width: 90%;
+  background: #ef233c;
+}
+
+.css-fill {
+  width: 88%;
+  background: #2a75bb;
+}
+
+.js-fill {
+  width: 75%;
+  background: #ffcb05;
+}
+
+.react-fill {
+  width: 70%;
+  background: #7dd3fc;
+}
+
+.db-fill {
+  width: 72%;
+  background: #6c757d;
+}
+
+.tools-fill {
+  width: 68%;
+  background: #38b000;
+}
+
+@media (max-width: 900px) {
+  .badges-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .skills-content {
+    padding: 18px;
+  }
+
+  .skills-intro-card {
+    padding: 20px;
+  }
+
+  .skills-intro-card h1 {
+    font-size: 32px;
+  }
+
+  .badges-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gym-badge {
+    width: 96px;
+    height: 96px;
+  }
+}
+
+.python-badge .gym-badge {
+  background: #3776ab;
+}
+
+.java-badge .gym-badge {
+  background: #f89820;
+}
+
+.blender-badge .gym-badge {
+  background: #ea7600;
+}
+
+.python-fill {
+  width: 72%;
+  background: #3776ab;
+}
+
+.java-fill {
+  width: 68%;
+  background: #f89820;
+}
+
+.blender-fill {
+  width: 55%;
+  background: #ea7600;
+}
+
+.kotlin-badge .gym-badge {
+  background: #7f52ff;
+}
+
+.cpp-badge .gym-badge {
+  background: #00599c;
+}
+
+.kotlin-fill {
+  width: 55%;
+  background: #7f52ff;
+}
+
+.cpp-fill {
+  width: 70%;
+  background: #00599c;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Chon</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <main class="pokedex-container">
+
+    <section class="contact-page">
+
+      <header class="trainer-header">
+        <a href="index.html" class="back-button">
+          <i data-lucide="arrow-left"></i>
+          <span data-i18n="site.back">Volver</span>
+        </a>
+
+        <div class="title-box">
+          <p data-i18n="contactPage.title">CONTACTO</p>
+        </div>
+
+        <div class="language-box">
+          <label for="language-select" class="sr-only">Seleccionar idioma</label>
+
+          <select id="language-select" class="language-select">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+      </header>
+
+      <section class="contact-content">
+
+        <div class="contact-left-panel">
+          <div class="contact-screen">
+            <div class="contact-avatar">
+              <i data-lucide="radio"></i>
+            </div>
+
+            <span class="contact-badge" data-i18n="contactPage.badge">POKÉGEAR ACTIVO</span>
+
+            <h1 data-i18n="contactPage.heading">Hablemos</h1>
+
+            <p data-i18n="contactPage.intro">
+              Si quieres conocer más sobre mis proyectos, revisar mi código o contactarme
+              para una oportunidad, puedes escribirme por cualquiera de estos medios.
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-right-panel">
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i data-lucide="mail"></i>
+            </div>
+
+            <div>
+              <h2 data-i18n="contactPage.emailTitle">Correo</h2>
+              <p data-i18n="contactPage.emailDesc">Medio principal para contacto profesional.</p>
+              <a href="lee241203@uvg.edu.gt">lee241203@uvg.edu.gt</a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i data-lucide="github"></i>
+            </div>
+
+            <div>
+              <h2>GitHub</h2>
+              <p data-i18n="contactPage.githubDesc">Repositorio de proyectos y código.</p>
+              <a href="https://github.com/Chon211205" target="_blank" rel="noopener noreferrer">
+                github.com/Chon211205
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    </section>
+
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons()
+  </script>
+
+  <script src="../js/translations.js"></script>
+  <script src="../js/language.js"></script>
+
+</body>
+</html>

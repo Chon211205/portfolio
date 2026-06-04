@@ -174,7 +174,7 @@ const translations = {
       badge: 'GYM BADGES',
       heading: 'Mis medallas técnicas',
       intro:
-        'Cada medalla representa una habilidad que he desarrollado en mis proyectos. La idea es mostrar mi stack de forma visual, clara y conectada con la temática del portafolio.',
+        'Cada medalla representa una habilidad que he desarrollado en mis proyectos.',
       htmlDesc:
         'Estructura semántica, organización del contenido y bases sólidas para sitios web.',
       cssDesc:
@@ -202,6 +202,24 @@ const translations = {
       levelHigh: 'Nivel alto',
       levelMedium: 'Nivel medio',
       levelGrowing: 'En crecimiento'
+    },
+
+    contactPage: {
+      title: 'CONTACTO',
+      badge: 'POKÉGEAR ACTIVO',
+      heading: 'Hablemos',
+      intro:
+        'Si quieres conocer más sobre mis proyectos, revisar mi código o contactarme para una oportunidad, puedes escribirme por cualquiera de estos medios.',
+      emailTitle: 'Correo',
+      emailDesc: 'Medio principal para contacto profesional.',
+      githubDesc: 'Repositorio de proyectos y código.',
+      linkedinDesc: 'Perfil profesional y experiencia.',
+      locationTitle: 'Ubicación',
+      locationDesc: 'Guatemala',
+      messageTitle: 'Mensaje rápido',
+      messageText:
+        'Estoy abierto a recibir retroalimentación sobre mi portafolio, colaborar en proyectos o conversar sobre oportunidades de desarrollo web.',
+      button: 'Enviar correo'
     }
 
   },
@@ -381,7 +399,7 @@ const translations = {
       badge: 'GYM BADGES',
       heading: 'My technical badges',
       intro:
-        'Each badge represents a skill I have developed through my projects. The goal is to show my stack in a visual, clear way connected to the portfolio theme.',
+        'Each badge represents a skill I have developed through my projects.',
       htmlDesc:
         'Semantic structure, content organization and solid foundations for websites.',
       cssDesc:
@@ -409,6 +427,24 @@ const translations = {
       levelMedium: 'Medium level',
       levelGrowing: 'Growing'
     },
+
+    contactPage: {
+      title: 'CONTACT',
+      badge: 'POKÉGEAR ACTIVE',
+      heading: 'Let’s talk',
+      intro:
+        'If you want to learn more about my projects, review my code or contact me for an opportunity, you can reach me through any of these channels.',
+      emailTitle: 'Email',
+      emailDesc: 'Main channel for professional contact.',
+      githubDesc: 'Project and code repository.',
+      linkedinDesc: 'Professional profile and experience.',
+      locationTitle: 'Location',
+      locationDesc: 'Guatemala',
+      messageTitle: 'Quick message',
+      messageText:
+        'I am open to receiving feedback on my portfolio, collaborating on projects or talking about web development opportunities.',
+      button: 'Send email'
+    }
 
   },
 
@@ -587,7 +623,7 @@ const translations = {
       badge: 'GYM BADGES',
       heading: 'Meine technischen Abzeichen',
       intro:
-        'Jedes Abzeichen steht für eine Fähigkeit, die ich durch meine Projekte entwickelt habe. Ziel ist es, meinen Stack visuell, klar und passend zur Portfolio-Thematik zu zeigen.',
+        'Jedes Abzeichen steht für eine Fähigkeit, die ich durch meine Projekte entwickelt habe.',
       htmlDesc:
         'Semantische Struktur, Inhaltsorganisation und solide Grundlagen für Webseiten.',
       cssDesc:
@@ -615,6 +651,24 @@ const translations = {
       levelMedium: 'Mittleres Niveau',
       levelGrowing: 'Im Wachstum'
     },
+
+    contactPage: {
+      title: 'KONTAKT',
+      badge: 'POKÉGEAR AKTIV',
+      heading: 'Lass uns reden',
+      intro:
+        'Wenn du mehr über meine Projekte erfahren, meinen Code ansehen oder mich für eine Gelegenheit kontaktieren möchtest, kannst du mich über diese Kanäle erreichen.',
+      emailTitle: 'E-Mail',
+      emailDesc: 'Hauptkanal für beruflichen Kontakt.',
+      githubDesc: 'Repository für Projekte und Code.',
+      linkedinDesc: 'Berufliches Profil und Erfahrung.',
+      locationTitle: 'Standort',
+      locationDesc: 'Guatemala',
+      messageTitle: 'Kurze Nachricht',
+      messageText:
+        'Ich bin offen für Feedback zu meinem Portfolio, Zusammenarbeit an Projekten oder Gespräche über Möglichkeiten in der Webentwicklung.',
+      button: 'E-Mail senden'
+    }
 
   },
 
@@ -794,7 +848,7 @@ const translations = {
       badge: '道馆徽章',
       heading: '我的技术徽章',
       intro:
-        '每个徽章代表我在项目中培养的一项技能。目标是以清晰、直观并符合作品集主题的方式展示我的技术栈。',
+        '每个徽章代表我在项目中培养的一项技能。',
       htmlDesc:
         '语义化结构、内容组织以及网站开发的坚实基础。',
       cssDesc:
@@ -821,6 +875,24 @@ const translations = {
       levelHigh: '高级',
       levelMedium: '中级',
       levelGrowing: '成长中'
+    },
+
+    contactPage: {
+      title: '联系',
+      badge: '宝可梦通讯器已启动',
+      heading: '联系我',
+      intro:
+        '如果你想了解更多关于我的项目、查看我的代码，或因为机会想联系我，可以通过以下方式与我沟通。',
+      emailTitle: '电子邮件',
+      emailDesc: '主要的专业联系方式。',
+      githubDesc: '项目和代码仓库。',
+      linkedinDesc: '职业资料和经验。',
+      locationTitle: '位置',
+      locationDesc: '危地马拉',
+      messageTitle: '快速留言',
+      messageText:
+        '我愿意接收关于作品集的反馈、参与项目合作，或讨论网页开发相关机会。',
+      button: '发送邮件'
     }
 
   }

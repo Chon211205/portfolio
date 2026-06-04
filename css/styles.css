@@ -1515,3 +1515,62 @@ body {
     height: 62px;
   }
 }
+
+/*Animations*/
+
+.pokedex,
+.trainer-page,
+.projects-pokedex-page,
+.skills-page,
+.contact-page,
+.options-page {
+  animation: pokedexOpen 0.8s ease-out both;
+  transform-origin: center center;
+}
+
+@keyframes pokedexOpen {
+  0% {
+    opacity: 0;
+    transform: scaleX(0.08) scaleY(0.95);
+    filter: brightness(0.7);
+  }
+
+  45% {
+    opacity: 1;
+    transform: scaleX(1.08) scaleY(1);
+    filter: brightness(1.1);
+  }
+
+  70% {
+    transform: scaleX(0.96) scaleY(1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleX(1) scaleY(1);
+    filter: brightness(1);
+  }
+}
+
+.pokedex-body,
+.trainer-card-page,
+.projects-dex-layout,
+.skills-content,
+.contact-content,
+.options-content {
+  animation: screenFadeIn 0.6s ease-out both;
+  animation-delay: 0.35s;
+}
+
+@keyframes screenFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

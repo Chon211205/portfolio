@@ -1,5 +1,8 @@
 # Portafolio Pokédex
 
+##GITHUB PAGES LINK
+https://chon211205.github.io/portfolio/
+
 Este portafolio está dirigido principalmente a una audiencia académica y profesional inicial: docentes, compañeros, reclutadores junior o personas que quieran revisar mi progreso como desarrollador web en formación. La intención no es presentarme como un producto terminado, sino como alguien que está construyendo criterio técnico, aprendiendo a organizar proyectos y explorando una identidad visual propia. Por eso el portafolio funciona como una Pokédex: cada sección muestra información personal, habilidades, proyectos y contacto de una forma más interactiva y memorable que una página tradicional.
 
 También está pensado para oportunidades relacionadas con desarrollo web frontend, proyectos académicos, prácticas profesionales o trabajos donde se valore la capacidad de aprender distintas tecnologías. En lugar de mostrar solo una lista de repositorios, el sitio intenta explicar qué hice, qué tecnologías usé y qué aprendí en cada proyecto. Esto ayuda a que la persona que lo vea entienda no solo el resultado final, sino también el proceso detrás de cada trabajo.

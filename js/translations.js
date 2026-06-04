@@ -115,6 +115,34 @@ const translations = {
       repositoryButton: 'Repositorio'
     },
 
+    projectSix: {
+      type: 'Tipo Diseño',
+      title: 'Diseño de conejo',
+      description:
+        'Este conejo fue una prueba para la renderización de pelos.',
+      technologiesTitle: 'Tecnologías',
+      demonstratesTitle: 'Qué demuestra',
+      demonstratesText:
+        'El objetivo de este modelo fue experimentar con las físicas de pelaje en Blender.',
+      reflectionTitle: 'Reflexión',
+      reflectionText:
+        'Este modelo fue útil para dominar la función de generación de pelos en Blender, siendo estos presentes en el pelaje y bigotes del conejo.'
+    },
+
+    projectSeven: {
+      type: 'Tipo Diseño',
+      title: 'Majora Mask',
+      description:
+        'Recreación de la máscara de Majora en Blender.',
+      technologiesTitle: 'Tecnologías',
+      demonstratesTitle: 'Qué demuestra',
+      demonstratesText:
+        'El modelo es una recreación de la máscara de Majora del videojuego The Legend of Zelda: Majora\'s Mask. Este proyecto funciona como una prueba de luz con texturas avanzadas.',
+      reflectionTitle: 'Reflexión',
+      reflectionText:
+        'Este modelo es de mis favoritos debido a lo bien que quedó la texturización e iluminación.'
+    },
+
     projectsPage: {
       title: 'PROYECTOS',
       projectOneType: 'Tipo Página web',
@@ -131,7 +159,14 @@ const translations = {
       projectFourShort: 'Recreación del juego clásico Snake.',
       projectFiveType: 'Tipo Juego',
       projectFiveTitle: 'Galaga',
-      projectFiveShort: 'Galaga trabajado en C++ con hilos.'
+      projectFiveShort: 'Galaga trabajado en C++ con hilos.',
+      projectSixType: 'Tipo Diseño',
+      projectSixTitle: 'Rabbitt',
+      projectSixShort: 'Modelo de conejo con simulación de pelos en Blender.',
+      projectSevenType: 'Tipo Diseño',
+      projectSevenTitle: 'Majora Mask',
+      projectSevenShort:
+        'Modelo 3D de recreación de la Máscara de Majora de The Legend of Zelda: Majora\'s Mask.'
     },
 
     skillsPage: {
@@ -167,7 +202,7 @@ const translations = {
       levelHigh: 'Nivel alto',
       levelMedium: 'Nivel medio',
       levelGrowing: 'En crecimiento'
-    },
+    }
 
   },
 
@@ -287,6 +322,34 @@ const translations = {
       repositoryButton: 'Repository'
     },
 
+    projectSix: {
+      type: 'Design Type',
+      title: 'Rabbit Design',
+      description:
+        'This rabbit was a test for hair rendering.',
+      technologiesTitle: 'Technologies',
+      demonstratesTitle: 'What it demonstrates',
+      demonstratesText:
+        'The goal of this model was to experiment with fur physics in Blender.',
+      reflectionTitle: 'Reflection',
+      reflectionText:
+        'This model was useful for mastering Blender’s hair generation feature, especially for the rabbit’s fur and whiskers.'
+    },
+
+    projectSeven: {
+      type: 'Design Type',
+      title: 'Majora Mask',
+      description:
+        'A recreation of Majora’s Mask in Blender.',
+      technologiesTitle: 'Technologies',
+      demonstratesTitle: 'What it demonstrates',
+      demonstratesText:
+        'The model is a recreation of Majora’s Mask from the video game The Legend of Zelda: Majora\'s Mask. This project works as a lighting test with advanced textures.',
+      reflectionTitle: 'Reflection',
+      reflectionText:
+        'This model is one of my favorites because the texturing and lighting turned out very well.'
+    },
+
     projectsPage: {
       title: 'PROJECTS',
       projectOneType: 'Website Type',
@@ -303,7 +366,14 @@ const translations = {
       projectFourShort: 'Recreation of the classic Snake game.',
       projectFiveType: 'Game Type',
       projectFiveTitle: 'Galaga',
-      projectFiveShort: 'Galaga built in C++ using threads.'
+      projectFiveShort: 'Galaga built in C++ using threads.',
+      projectSixType: 'Design Type',
+      projectSixTitle: 'Rabbitt',
+      projectSixShort: 'Rabbit model with hair simulation in Blender.',
+      projectSevenType: 'Design Type',
+      projectSevenTitle: 'Majora Mask',
+      projectSevenShort:
+        '3D model recreating Majora\'s Mask from The Legend of Zelda: Majora\'s Mask.'
     },
 
     skillsPage: {
@@ -458,6 +528,34 @@ const translations = {
       repositoryButton: 'Repository'
     },
 
+    projectSix: {
+      type: 'Design-Typ',
+      title: 'Kaninchen-Design',
+      description:
+        'Dieses Kaninchen war ein Test für die Darstellung von Haaren.',
+      technologiesTitle: 'Technologien',
+      demonstratesTitle: 'Was es zeigt',
+      demonstratesText:
+        'Das Ziel dieses Modells war es, mit Fellphysik in Blender zu experimentieren.',
+      reflectionTitle: 'Reflexion',
+      reflectionText:
+        'Dieses Modell war nützlich, um die Haarerzeugungsfunktion in Blender besser zu beherrschen, besonders beim Fell und den Schnurrhaaren des Kaninchens.'
+    },
+
+    projectSeven: {
+      type: 'Design-Typ',
+      title: 'Majora Mask',
+      description:
+        'Eine Nachbildung von Majoras Maske in Blender.',
+      technologiesTitle: 'Technologien',
+      demonstratesTitle: 'Was es zeigt',
+      demonstratesText:
+        'Das Modell ist eine Nachbildung von Majoras Maske aus dem Videospiel The Legend of Zelda: Majora\'s Mask. Dieses Projekt dient als Lichttest mit fortgeschrittenen Texturen.',
+      reflectionTitle: 'Reflexion',
+      reflectionText:
+        'Dieses Modell ist eines meiner Favoriten, weil Texturierung und Beleuchtung sehr gut gelungen sind.'
+    },
+
     projectsPage: {
       title: 'PROJEKTE',
       projectOneType: 'Webseiten-Typ',
@@ -474,7 +572,14 @@ const translations = {
       projectFourShort: 'Nachbildung des klassischen Snake-Spiels.',
       projectFiveType: 'Spiel-Typ',
       projectFiveTitle: 'Galaga',
-      projectFiveShort: 'Galaga in C++ mit Threads entwickelt.'
+      projectFiveShort: 'Galaga in C++ mit Threads entwickelt.',
+      projectSixType: 'Design-Typ',
+      projectSixTitle: 'Rabbitt',
+      projectSixShort: 'Kaninchenmodell mit Haarsimulation in Blender.',
+      projectSevenType: 'Design-Typ',
+      projectSevenTitle: 'Majora Mask',
+      projectSevenShort:
+        '3D-Modell als Nachbildung von Majoras Maske aus The Legend of Zelda: Majora\'s Mask.'
     },
 
     skillsPage: {
@@ -629,6 +734,34 @@ const translations = {
       repositoryButton: '代码仓库'
     },
 
+    projectSix: {
+      type: '设计类型',
+      title: '兔子设计',
+      description:
+        '这个兔子模型是一次毛发渲染测试。',
+      technologiesTitle: '技术',
+      demonstratesTitle: '展示内容',
+      demonstratesText:
+        '这个模型的目标是在 Blender 中实验毛发物理效果。',
+      reflectionTitle: '反思',
+      reflectionText:
+        '这个模型帮助我掌握 Blender 的毛发生成功能，特别是在兔子的毛皮和胡须部分。'
+    },
+
+    projectSeven: {
+      type: '设计类型',
+      title: 'Majora Mask',
+      description:
+        '使用 Blender 重现姆吉拉的假面。',
+      technologiesTitle: '技术',
+      demonstratesTitle: '展示内容',
+      demonstratesText:
+        '这个模型重现了电子游戏《塞尔达传说：姆吉拉的假面》中的姆吉拉面具。这个项目也是一次使用高级纹理的灯光测试。',
+      reflectionTitle: '反思',
+      reflectionText:
+        '这个模型是我最喜欢的作品之一，因为它的贴图和灯光效果完成得很好。'
+    },
+
     projectsPage: {
       title: '项目',
       projectOneType: '网页类型',
@@ -645,7 +778,15 @@ const translations = {
       projectFourShort: '经典贪吃蛇游戏的重新制作。',
       projectFiveType: '游戏类型',
       projectFiveTitle: 'Galaga',
-      projectFiveShort: '使用 C++ 和线程开发的 Galaga。'
+      projectFiveShort: '使用 C++ 和线程开发的 Galaga。',
+      projectSixType: '设计类型',
+      projectSixTitle: 'Rabbitt',
+      projectSixShort: '使用 Blender 制作的带毛发模拟的兔子模型。',
+      projectSevenType: '设计类型',
+      projectSevenTitle: 'Majora Mask',
+      projectSevenShort:
+        '重现《塞尔达传说：姆吉拉的假面》中姆吉拉面具的 3D 模型。'
+      
     },
 
     skillsPage: {
